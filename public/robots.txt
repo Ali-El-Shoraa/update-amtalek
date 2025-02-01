@@ -1,0 +1,51 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Zealbot
+Allow: /
+
+User-agent: MSIECrawler
+Allow: /
+
+User-agent: SiteSnagger
+Allow: /
+
+User-agent: WebStripper
+Allow: /
+
+User-agent: WebCopier
+Allow: /
+
+User-agent: Fetch
+Allow: /
+
+User-agent: Offline Explorer
+Allow: /
+
+User-agent: Teleport
+Allow: /
+
+User-agent: TeleportPro
+Allow: /
+
+User-agent: WebZIP
+Allow: /
+
+User-agent: linko
+Allow: /
+
+User-agent: HTTrack
+Allow: /
+
+Sitemap: https://www.amtalek.com/sitemap.xml
+
+Host: https://www.amtalek.com
