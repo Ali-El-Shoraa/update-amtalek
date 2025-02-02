@@ -1,0 +1,117 @@
+{
+  "tab": {
+    "title": "Amtalek | {{details}}",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt"
+  },
+
+  "send_Message": "SEND A MESSAGE",
+  "Properties": {
+    "sell": "For sale",
+    "rent": " For rent"
+  },
+  "properties_count": "published these properties on our system.",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "BrokerInfoComponent": {
+    "Phone": "Phone:",
+    "Mobile": "Mobile:",
+    "Email": "Email:"
+  },
+  "BrokerCard": { "Properties": "Properties", "CTA_txt": "Full Profile" },
+  "LatestProperties": {
+    "title": "Latest Properties",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "Month"
+  },
+  "PropertiesCategories": {
+    "title": "Properties Categories"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "Featured Properties",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "Month"
+  },
+  "BrokerProperties": {
+    "ErrorMessage": "Something wrong has happened, please try again later!",
+    "NoItemsMessage": "There are no properties!"
+  },
+  "BrokerProjects": {
+    "ErrorMessage": "Something wrong has happened, please try again later!",
+    "NoItemsMessage": "There are no projects!"
+  },
+  "PropertyCard": {
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms": "{{count, number}} Bedrooms",
+    "Bathrooms": "{{count, number}} Bathrooms",
+    "Month": "Month",
+    "share_options": {
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Vimeo": "Vimeo"
+    }
+  },
+  "Pagination": {
+    "Previous": "Previous",
+    "Next": "Next"
+  },
+  "SendMessageForm": {
+    "name": { "placeholder": "Name" },
+    "phone": { "placeholder": "Phone" },
+    "email": { "placeholder": "Email" },
+    "message": { "placeholder": "Message..." },
+    "RatingComponent": { "placeholder": "Add Rating :" },
+    "offer": { "placeholder": "Your Offer" },
+    "SubmitBtnComponent": {
+      "value_message": "Send",
+      "value_offer": "Submit Your Offer",
+      "value": "Submit"
+    },
+    "toast_error": "Please log in first!"
+  },
+  "validations": {
+    "name": {
+      "required": "Name is required"
+    },
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "message": {
+      "required": "Message is required.",
+      "minLength": "Please enter at least 3 letters."
+    },
+
+    "phone": {
+      "required": "Phone is required.",
+      "pattern": "Invalid Phone number.",
+      "maxLength": "Invalid Phone number.",
+      "minLength": "Invalid Phone number."
+    },
+    "ReCAPTCHA": {
+      "required": "ReCAPTCHA is required."
+    }
+  },
+  "call": "Call",
+  "email": "Email",
+  "whatsapp": "Whatsapp",
+  "callUs": "Call Us",
+  "phoneNumber": "Phone Number",
+  "brokerName": "Agency Name",
+  "message": "Hello , I am interested in your property and i want to know more about it. {{link}}",
+  "featuredAside": {
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "for_what_for_both": "For Sale and Rent"
+  },
+  "projects": "Projects"
+}

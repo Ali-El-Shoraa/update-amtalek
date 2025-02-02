@@ -1,0 +1,56 @@
+{
+  "tab": {
+    "title": "وظائف في مصر | اكتشف الوظائف في أمتلك.كوم",
+    "description": "استكشف الوظائف في مصر. اكتشف الفرص المتاحة لدى العديد من شركات التوظيف. ابحث عن وظيفتك الآن"
+  },
+  "hero_title": {
+    "career_title": "وظايف",
+    "search_title": "أبحث",
+    "job_title": "عن وظيفة"
+  },
+
+  "job_information": {
+    "job_description": {
+      "title": "تفاصيل الوظيفة"
+    },
+    "job_responsibility": {
+      "title": "المسؤوليات"
+    },
+    "required_experience": {
+      "title": "المؤهلات المطلوبة"
+    },
+    "company_name": {
+      "title": "أسم الشركة"
+    },
+    "job_type": {
+      "title": "نوع الوظيفة"
+    },
+    "location": {
+      "title": "الموقع"
+    },
+    "from": "من",
+    "to": "الي",
+    "job_sector": {
+      "title": "نوع العمل"
+    },
+    "job_category": {
+      "title": "قسم"
+    },
+    "experience": {
+      "title": "خبرة"
+    },
+    "workplace": {
+      "title": "مكان العمل"
+    },
+    "salary": {
+      "title": "السعر"
+    },
+    "date": {
+      "title": "التاريخ"
+    }
+  },
+  "related_vacancies": {
+    "title": "اكتشف الوظائف",
+    "description": "ابحث عن وظائف وفرص عمل ومسارات مهنية. بعض الشركات التي ساعدناها في توظيف المتقدمين الممتازين على مر السنين"
+  }
+}

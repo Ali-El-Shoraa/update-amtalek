@@ -1,0 +1,106 @@
+{
+  "tab": {
+    "title": "Amtalek | {{details}}",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt"
+  },
+  "ShareComponent": {
+    "txt": "Share",
+    "txt_property": "Share this Property",
+    "txt_article": "Share this Article",
+    "txt_project": "Share this Project",
+    "Facebook": "Facebook",
+    "whatsapp": "Whatsapp",
+    "Twitter": "Twitter",
+    "Google": "Google +"
+  },
+
+  "sorting_select": {
+    "Featured": "Featured",
+    "Normal": "Normal",
+    "price_High": "price (High)",
+    "price_Low": "price (Low)",
+    "placeholder": "Sort By:"
+  },
+
+  "headings": {
+    "description": "PROJECT DESCRIPTION",
+    "QuickSummary": "QUICK SUMMARY",
+    "aminities": "PROJECT FEATURES",
+    "AUTOCAD": "PROJECT AUTOCAD",
+    "MASTER": "MASTER PLAN",
+    "PAYMENT": "Payment Plans",
+    "AUTOCAD_DESCRIPTION": "These are all units dimensions",
+    "LOCATION": "PROJECT LOCATION",
+    "VIDEO": "VIDEO PRESENTATION",
+    "CONTACT_BROKER": "CONTACT BROKER",
+    "CONTACT_DEVELOPER": "CONTACT DEVELOPER",
+    "PROPERTY": "Properties"
+  },
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+
+  "QuickSummary": {
+    "Address": "Address:",
+    "Start_Price": "Start Price:",
+    "Delivery_Date": "Delivery Date:",
+    "property_size_from": "Project Size From:",
+    "property_size_to": "Project Size To:",
+    "bedrooms": "Bedrooms:"
+  },
+
+  "BrokerInfoComponent": {
+    "Phone": "Phone:",
+    "Mobile": "Mobile:",
+    "Email": "Email:"
+  },
+  "AsideForm": {
+    "name": { "placeholder": "Name" },
+    "phone": { "placeholder": "Phone" },
+    "email": { "placeholder": "Email" },
+    "message": { "placeholder": "Message..." },
+    "offer": { "placeholder": "Your Offer" },
+    "offer_type": {
+      "placeholder": "Offer Type",
+      "err_msg": "Offer Type is required",
+      "Options": { "for_rent": "For Rent", "for_sale": "For Sale" }
+    },
+    "SubmitBtnComponent": {
+      "value_message": "Send",
+      "value_offer": "Submit Your Offer",
+      "value": "Submit"
+    },
+    "toast_error": "Please log in first!"
+  },
+  "validations": {
+    "name": {
+      "required": "Name is required"
+    },
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "message": {
+      "required": "Message is required.",
+      "minLength": "Please enter at least 3 letters."
+    },
+    "offer": {
+      "required": "Offer is required.",
+      "pattern": "Invalid Number.",
+      "min": "Invalid Number."
+    },
+    "phone": {
+      "required": "Phone is required.",
+      "pattern": "Invalid Phone number.",
+      "maxLength": "Invalid Phone number.",
+      "minLength": "Invalid Phone number."
+    },
+    "ReCAPTCHA": {
+      "required": "ReCAPTCHA is required."
+    }
+  },
+  "call": "Call",
+  "email": "Email",
+  "whatsapp": "Whatsapp",
+  "callUs": "Call Us",
+
+  "whatsappMsg": "Check this Project from Amtalek"
+}

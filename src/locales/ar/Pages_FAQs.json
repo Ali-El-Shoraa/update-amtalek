@@ -1,0 +1,39 @@
+{
+  "tab": {
+    "title": " أمتلك.كوم | الأسئلة الشائعه ",
+    "description": "أمتلك.كوم |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "heading": "الأسئلة الشائعة",
+  "sub_heading": "الأسئلة الشائعة",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage": "لا توجد أسئلة شائعة!",
+  "LatestProperties": {
+    "title": "أحدث العقارات",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "شهر"
+  },
+  "PropertiesCategories": {
+    "title": "انواع العقارات"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "عقارات مميزة",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "شهر"
+  },
+  "PropertyCard": {
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار"
+  },
+  "featuredAside": {
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار"
+  }
+}

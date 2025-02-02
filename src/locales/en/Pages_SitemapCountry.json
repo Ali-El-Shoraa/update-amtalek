@@ -1,0 +1,23 @@
+{
+  "tab": {
+    "title": "Amtalek | Projects in {{country}}",
+    "description": "Discover real estate projects on the Amtlek.com platform in {{country}} through the advanced search engine on Amtalek. Easily search for apartments, villas, commercial properties. Experience an easy-to-use interface with precise search options that meet all your real estate needs"
+  },
+
+  "project_in": "Projects in ",
+  "noResults": "There are no search results",
+  "placeholder": "What Project are you Searching for!",
+  "developers": {
+    "filter": {
+      "filter_title": "Filter Projects",
+      "developer": "Developers",
+      "city": "Cities",
+      "delivery_date": "Delivery Date"
+    },
+    "most_view": "Most Views Project",
+    "latest_developers": "Latest Developers",
+    "lates_proj": "Latest projects in Egypt",
+    "lates_proj_more": "See More",
+    "main_CTA": "View all developers"
+  }
+}

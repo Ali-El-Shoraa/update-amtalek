@@ -1,0 +1,15 @@
+{
+  "allfollowers": "All Followers ({{count}})",
+  "maybeKnow": "Friends you may know ({{count}})",
+  "seeall": "See All",
+  "mutual": "{{count}} Mutual Friends",
+  "confirm": "Confirm",
+  "delete": "Delete",
+  "friend": "Friend",
+  "following": "Following",
+  "addfriend": "Add Friend",
+  "remove": "Remove",
+  "favourite": "Favourite",
+  "unfollow": "Unfollow",
+  "unfriend": "Unfriend"
+}

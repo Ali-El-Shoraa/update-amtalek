@@ -1,0 +1,54 @@
+{
+  "tab": {
+    "title": "AMTALEK | Social Media ",
+    "description": "Rent - Sell Properties in Egypt"
+  },
+  "story": "Add Story",
+  "inputplaceholder": "Write  something you think about..",
+  "video": "Video",
+  "photo": "Photo",
+  "postBtn": "Post",
+  "like": "Like",
+  "comment": "Comment",
+  "share": "Share",
+  "likes_zero": "",
+  "likes_one": "{{count}} Like",
+  "likes_two": "{{count}} Likes",
+  "likes_few": "{{count}} Likes",
+  "likes_many": "{{count}} Likes",
+  "likes_other": "{{count}} Likes",
+  "comments_zero": "",
+  "comments_one": "{{count}} Comment",
+  "comments_two": "{{count}} Comments",
+  "comments_few": "{{count}} Comments",
+  "comments_many": "{{count}} Comments",
+  "comments_other": "{{count}} Comments",
+  "shares_zero": "",
+  "shares_one": "{{count}} Share",
+  "shares_two": "{{count}} Shares",
+  "shares_few": "{{count}} Shares",
+  "shares_many": "{{count}} Shares",
+  "shares_other": "{{count}} Shares",
+  "commentPlaceholder": "Add a comment...",
+  "reply": "Reply",
+  "suggestionDevelopers": "Suggestion Developers",
+  "writePostPrivacy": {
+    "public": "Public",
+    "friends": "Friends",
+    "onlyMe": "Only me"
+  },
+  "createPost": "Create Post",
+  "writingModalPlaceholder": "Whats on your mind , {{name}}?",
+  "addToPost": "Add to your post",
+  "addphoto": "Add Photo or Video",
+  "addProperty": {
+    "title": "Add Your Property",
+    "property": "Add Property",
+    "project": "Add Project"
+  },
+  "post": {
+    "join": "Join",
+    "joined": "Joined"
+  },
+  "recent": "Recent Activity"
+}

@@ -1,0 +1,93 @@
+{
+  "tab": {
+    "title": " أمتلك.كوم | تسجيل الدخول ",
+    "description": "أمتلك.كوم |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "VerificationCodeForm": {
+    "heading_for_reset_pass": "قم بإضافة الرمز الذي تم إرساله إليك لإعادة تعيين كلمة المرور",
+    "heading_for_verify_account": "أضف الرمز الذي تم ارسالة إلي إيميلك للتحقق من الحساب",
+    "code": {
+      "label": "رمز التحقق",
+      "placeholder": "رمز التحقق"
+    },
+    "SubmitBtnComponent": {
+      "value": "إرسال"
+    }
+  },
+  "UpdatePasswordForm": {
+    "heading": "قم بتعيين كلمة المرور",
+    "new_password": {
+      "label": "كلمة المرور",
+      "placeholder": "كلمة المرور"
+    },
+    "confirm_new_password": {
+      "label": "تأكيد كلمة المرور",
+      "placeholder": "تأكيد كلمة المرور"
+    },
+    "SubmitBtnComponent": {
+      "value": "إرسال"
+    }
+  },
+  "SendCodeForm": {
+    "heading": "أضف بريدك الإلكتروني لإرسال رمز التحقق",
+    "email": {
+      "label": "البريد الإلكتروني",
+      "placeholder": "البريد الإلكتروني"
+    },
+    "SubmitBtnComponent": {
+      "value": "إرسال"
+    },
+    "Return_to_login": "العودة لتسجيل الدخول"
+  },
+  "LoginForm": {
+    "heading": "تسجيل الدخول",
+    "email": {
+      "label": "البريد الإلكتروني",
+      "placeholder": "البريد الإلكتروني"
+    },
+    "password": {
+      "label": "كلمة المرور",
+      "placeholder": "كلمة المرور"
+    },
+    "remember_me": {
+      "label": "تذكرنى"
+    },
+    "Forgot_password": "هل نسيت كلمة السر ؟",
+    "SubmitBtnComponent": {
+      "value": "تسجيل الدخول"
+    },
+    "Return_to_login": "العودة لتسجيل الدخول",
+    "login__providers": {
+      "txt": " أو انضم بواسطة ",
+      "Google": "جوجل",
+      "have_no_account": "ليس لديك حساب؟",
+      "register": "انشيء واحدا"
+    }
+  },
+  "validations": {
+    "email": {
+      "required": "البريد الالكتروني مطلوب.",
+      "pattern": " البريد الإلكتروني غير صحيح."
+    },
+    "password": {
+      "required": "كلمة المرور مطلوبة.",
+      "minLength": "الحد الأدنى كلمة المرور هو  ٨ أحرف."
+    },
+    "new_password": {
+      "required": "تأكيد كلمة المرور الجديدة مطلوبة.",
+      "minLength": "الحد الأدنى لكلمة المرور الجديدة هو  ٨ أحرف."
+    },
+    "confirm_new_password": {
+      "required": "تأكيد كلمة المرور الجديدة مطلوبة.",
+      "minLength": "الحد الأدنى لتأكيد كلمة المرور الجديدة هو  ٨ أحرف.",
+      "validate": "كلمات المرور الجديدة غير متطابقة."
+    },
+    "code": {
+      "required": "رمز التحقق.",
+      "pattern": "رمز التحقق غير صحيح."
+    },
+    "ReCAPTCHA": {
+      "required": "انا لست روبوت مطلوب!"
+    }
+  }
+}

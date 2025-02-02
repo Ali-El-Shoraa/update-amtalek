@@ -1,0 +1,25 @@
+{
+  "tap": {
+    "tile": "Amtalek | "
+  },
+  "join": "Join Egypt's Top Companies",
+  "hero_component": {
+    "title_head": "Find your next great hire on Amtalek!",
+    "sub_head": "Our platform connects you with skilled, vetted candidates tailored to your needs.."
+  },
+
+  "section_1": {
+    "title_head": "Letus help you full fill your company.",
+    "sub_head": "Let us in Amtalek help you build your dream workforce — efficiently, effectively, and effortlessly."
+  },
+  "section_2": {
+    "title_head": "Get Support from our team on how to use our platform.",
+    "sub_head": "Whether you're looking for skilled professionals, industry experts, or fresh talent, we make it easy to find the perfect fit for your team.."
+  },
+  "section_3": {
+    "title_head": "Find your best candidate with Amtalek",
+    "sub_head": "Amtalek is your ultimate partner in connecting employers with top-tier talent. Our platform is designed to streamline the hiring process, offering advanced search tools, personalized candidate matching."
+  },
+
+  "button_employer": "Get Started"
+}

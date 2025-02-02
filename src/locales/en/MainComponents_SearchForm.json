@@ -1,0 +1,40 @@
+{
+  "title": {
+    "bigForm": "FIND YOUR PROPERTY",
+    "asideForm": "ADVANCED SEARCH"
+  },
+  "keyword": { "placeholder": "Keyword (E.G 'Flat For Rent In Cairo')" },
+  "region": { "placeholder": "Location" },
+  "property_type": { "placeholder": "Property Type" },
+  "finishing": { "placeholder": "Property Finishing" },
+  "min_bathes": {
+    "placeholder": "Baths"
+  },
+  "min_beds": { "placeholder": "Beds" },
+  "purpose": {
+    "placeholder": "Purpose"
+  },
+  "currency": {
+    "placeholder": "Currency"
+  },
+  "min_area": { "placeholder": "Min Area" },
+  "max_area": { "placeholder": "Max Area" },
+  "min_price": { "placeholder": "Min Price" },
+  "max_price": { "placeholder": "Max Price" },
+  "errors": {
+    "number": {
+      "pattern": "Please enter a valid number",
+      "min": "Please enter a number larger than zero",
+      "validate": "Min value cannot be larger than the max value"
+    }
+  },
+  "Amentias": {
+    "title_collapsed": {
+      "true": "Show more search options",
+      "false": "Show less search options"
+    },
+    "placeholder": "Select Amenities"
+  },
+  "Submit_Button": "Search",
+  "toast_error": "Please enter valid information!"
+}

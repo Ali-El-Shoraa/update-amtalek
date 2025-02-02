@@ -1,0 +1,42 @@
+{
+  "tab": {
+    "title": "Amtalek | Contact Us",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt"
+  },
+
+  "heading": "Let us hear from you!",
+  "sub_heading": "GET IN TOUCH",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "Form": {
+    "name": { "placeholder": "Name" },
+    "phone": { "placeholder": "Phone" },
+    "email": { "placeholder": "Email" },
+    "message": { "placeholder": "Message..." },
+    "SubmitBtnComponent": {
+      "value": "Send"
+    },
+    "toast_error": "Please log in first!"
+  },
+  "validations": {
+    "name": {
+      "required": "Name is required"
+    },
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "message": {
+      "required": "Message is required.",
+      "minLength": "Please enter at least 3 letters."
+    },
+    "phone": {
+      "required": "Phone is required.",
+      "pattern": "Invalid Phone number.",
+      "maxLength": "Invalid Phone number.",
+      "minLength": "Invalid Phone number."
+    },
+    "ReCAPTCHA": {
+      "required": "ReCAPTCHA is required."
+    }
+  }
+}

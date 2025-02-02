@@ -1,0 +1,85 @@
+//fonts
+$heading: "Arapey", serif;
+$body: "Maitree", serif;
+$menu: "Work Sans", sans-serif;
+$primary: rgb(1, 66, 90);
+$secondary: #005879;
+$bg: #ffffff;
+$grey: #edf3f8;
+$dark-gray: #ced4d6;
+$accent: #ffd119;
+
+//colors
+
+:root {
+  $purple: #7664ff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+// html:lang(en) {
+//   *,
+//   *::before,
+//   *::after {
+//     font-family: "Roboto", sans-serif;
+//   }
+// }
+// html:lang(ar) {
+//   *,
+//   *::before,
+//   *::after {
+//     font-family: "Cairo", sans-serif;
+//   }
+// }
+
+body {
+  background-color: $bg;
+  color: $secondary;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.old_width {
+  max-width: 90%;
+  margin-inline: auto;
+}
+.site_container {
+  //!-- these specific styles are used to mimic the responsiveness of the real html
+  width: 75%;
+  margin-inline: auto;
+  min-width: 1140px;
+  @media screen and (max-width: 1200px) {
+    min-width: 945px;
+  }
+  @media screen and (max-width: 1016px) {
+    min-width: 720px;
+    max-width: 720px;
+  }
+  @media screen and (max-width: 768px) {
+    min-width: 620px;
+    width: 90%;
+  }
+  @media screen and (max-width: 670px) {
+    min-width: auto;
+    width: 90%;
+  }
+}

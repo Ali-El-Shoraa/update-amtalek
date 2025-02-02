@@ -1,0 +1,9 @@
+{
+  "navbar": {
+    "followers": "Followers",
+    "following": "Following",
+    "friends": "Friends",
+    "recently": "Recently Added",
+    "current": "Current City"
+  }
+}

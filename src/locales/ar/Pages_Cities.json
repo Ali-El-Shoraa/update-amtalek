@@ -1,0 +1,19 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | المدن  ",
+    "description": "AMTALEK |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر",
+    "canonical": "cities"
+  },
+  "heading": "جميع المدن",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage": "لا توجد مدن!",
+
+  "CityCard": {
+    "Properties": "ملكيات",
+    "CTA_txt": "عرض خصائص",
+    "total_count_formatted": "{{count, number}} عقارات",
+    "rent_count_formatted": "{{count, number}} عقارات للإيجار",
+    "sale_count_formatted": "{{count, number}} عقارات للبيع"
+  },
+  "placeholder": "ابحث عن اسم المدينة"
+}

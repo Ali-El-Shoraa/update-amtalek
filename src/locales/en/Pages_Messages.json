@@ -1,0 +1,13 @@
+{
+  "tab": {
+    "title": "Amtalek | Messages",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt"
+  },
+  "title": "Messages",
+  "contacted": "Contacted People",
+  "placeholder": "Search Contacts",
+  "no_results": "No Results Found",
+  "no_messages": "Select a Chat and Start Messaging!",
+  "message_placeholder": "Write a message",
+  "refresh": "Refresh Messages"
+}

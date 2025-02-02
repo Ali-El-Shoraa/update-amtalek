@@ -1,0 +1,141 @@
+{
+  "tab": {
+    "title": " أمتلك.كوم | {{details}} ",
+    "description": "أمتلك.كوم |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "send_Message": "ارسل رسالة",
+  "Properties": {
+    "sell": "للبيع",
+    "rent": " للايجار "
+  },
+  "properties_count": "نشر هذه العقارات على نظامنا.",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "BrokerInfoComponent": {
+    "Phone": "هاتف أرضي:",
+    "Mobile": "موبايل:",
+    "Email": " البريد الإلكتروني:"
+  },
+  "BrokerCard": {
+    "Properties": "عقارات",
+    "CTA_txt": "عرض الملف الشخصي"
+  },
+  "LatestProperties": {
+    "title": "أحدث العقارات",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "شهر"
+  },
+  "PropertiesCategories": {
+    "title": "فئات العقارات"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "عقارات مميزة",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "شهر"
+  },
+  "BrokerProperties": {
+    "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+    "NoItemsMessage": "لا توجد عقارات!"
+  },
+  "BrokerProjects": {
+    "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+    "NoItemsMessage": "لا توجد مشاريع!"
+  },
+  "PropertyCard": {
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms_zero": " {{count}} غرفة نوم",
+    "Bedrooms_one": "غرفة نوم",
+    "Bedrooms_two": "غرفتين نوم",
+    "Bedrooms_few": "{{count}} غرف نوم",
+    "Bedrooms_many": "{{count}} غرفة نوم",
+    "Bedrooms_other": "{{count}} غرفة نوم",
+    "Bathrooms_zero": " {{count}} حمام",
+    "Bathrooms_one": "حمام",
+    "Bathrooms_two": "حمامين",
+    "Bathrooms_few": "{{count}} حمامات",
+    "Bathrooms_many": "{{count}} حمام",
+    "Bathrooms_other": "{{count}} حمام",
+    "Month": "شهر",
+    "share_options": {
+      "Facebook": "فيسبوك",
+      "Twitter": "تويتر",
+      "Vimeo": "فيميو"
+    }
+  },
+  "Pagination": {
+    "Previous": "السابق",
+    "Next": "التالي"
+  },
+  "SendMessageForm": {
+    "name": {
+      "placeholder": "الاسم"
+    },
+    "phone": {
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "placeholder": "الإيميل"
+    },
+    "message": {
+      "placeholder": "الرسالة..."
+    },
+    "RatingComponent": { "placeholder": "اترك تقييمك :" },
+
+    "offer": {
+      "placeholder": "العرض"
+    },
+    "SubmitBtnComponent": {
+      "value_message": "إرسال",
+      "value_offer": "أرسل عرضك",
+      "value": "إرسال"
+    },
+    "toast_error": "الرجاء تسجيل الدخول أولا!"
+  },
+  "validations": {
+    "name": {
+      "required": "الاسم مطلوب"
+    },
+    "email": {
+      "required": "البريد الالكتروني مطلوب.",
+      "pattern": " البريد الإلكتروني غير صحيح."
+    },
+    "message": {
+      "required": "الرسالة مطلوبة.",
+      "minLength": "الرجاء إدخال ٣ أحرف على الأقل."
+    },
+    "phone": {
+      "required": "الهاتف مطلوب.",
+      "pattern": "رقم الهاتف غير صحيح.",
+      "maxLength": "رقم الهاتف غير صحيح.",
+      "minLength": "رقم الهاتف غير صحيح."
+    },
+    "ReCAPTCHA": {
+      "required": "انا لست روبوت مطلوب!"
+    }
+  },
+  "call": "اتصل",
+  "email": "ايميل",
+  "whatsapp": "واتساب",
+  "callUs": "اتصل بنا",
+  "phoneNumber": "رقم الهاتف",
+  "brokerName": "اسم الوكيل",
+  "message": "مرحبا انا وجدت هذا العقار و اريد الاستفسار عنه {{link}}",
+  "featuredAside": {
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "for_what_for_both": "للبيع و للإيجار"
+  },
+  "projects": "المشاريع"
+}

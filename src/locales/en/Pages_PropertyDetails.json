@@ -1,0 +1,187 @@
+{
+  "tab": {
+    "title": "Amtalek | {{details}}",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt"
+  },
+
+  "property_id_word": "Property ID:",
+  "views_word": "views",
+  "price_word": "Price : ",
+  "sold": "Sold out",
+  "land_area": "M",
+
+  "land_area_unit": "2",
+  "Bedrooms": "Bedrooms",
+  "Bathrooms": "Bathrooms",
+  "Garages": "Garages",
+  "ShareComponent": {
+    "txt": "Share",
+    "txt_property": "Share this Property",
+    "txt_article": "Share this Article",
+    "txt_project": "Share this Project",
+    "Facebook": "Facebook",
+    "whatsapp": "Whatsapp",
+    "Twitter": "Twitter",
+    "Google": "Google +"
+  },
+
+  "headings": {
+    "description": "PROPERTY DESCRIPTION",
+    "QuickSummary": "QUICK SUMMARY",
+    "aminities": "BENEFITS & AMENITIES",
+    "LOCATION": "PROPERTY LOCATION",
+    "VIDEO": "VIDEO PRESENTATION",
+    "SIMILAR_PROPERTIES": "SIMILAR PROPERTIES",
+    "SIMILAR_PROPERTIES_DESCRIPTION": "We have Properties in these Areas View a list of Featured Properties",
+    "COMMENTS": "COMMENTS",
+    "LEAVE_COMMENT_word": "LEAVE A COMMENT"
+  },
+  "details": {
+    "title": "PROPERTY DETAILS",
+    "apartmentNumber": "Property Number ",
+    "Bathrooms": "Bathrooms ",
+    "Beds": "Beds",
+    "BuildingNumber": "Building Number ",
+    "Category": "Category",
+    "Finishing": "Finishing ",
+    "Floor": "Floor ",
+    "GarageNumber": "Garage Number",
+    "GarageSize": "Garage Size ",
+    "Kitchens": "Kitchens Number ",
+    "Area": "Land Area ",
+    "LivingRooms": "Living Rooms",
+    "NumberOfFloors": "Number Of Floors ",
+    "ReceptionPieces": "Reception Pieces",
+    "FloorType": "Reception Floor Type ",
+    "Type": "Property Type ",
+    "PropArea": "Property Area "
+  },
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage_comments": "There are no comments yet!",
+  "PropertyCard": {
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "yearly": "Yearly",
+    "monthly": "Monthly",
+    "daily": "Daily",
+    "area_formatted": "{{area, number}} M²",
+    "Bedrooms": "{{count, number}} Bedrooms",
+    "Bathrooms": "{{count, number}} Bathrooms",
+    "Month": "Month",
+    "share_options": {
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Vimeo": "Vimeo"
+    }
+  },
+  "aside": {
+    "PROPERTY_OWNER": "PROPERTY OWNER",
+    "MAKE_YOUR_OFFER": "MAKE YOUR OFFER",
+    "Phone": "Phone:",
+    "Mobile": "Mobile:",
+    "Email": "Email:"
+  },
+  "LatestProperties": {
+    "title": "Latest Properties",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "Month"
+  },
+  "PropertiesCategories": {
+    "title": "Properties Categories"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "Featured Properties",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "Month"
+  },
+  "AsideForm": {
+    "name": { "placeholder": "Name" },
+    "phone": { "placeholder": "Phone" },
+    "email": { "placeholder": "Email" },
+    "message": { "placeholder": "Message..." },
+    "offer": {
+      "placeholder": "Your Offer"
+    },
+    "offer_type": {
+      "placeholder": "Offer Type",
+      "err_msg": "Offer Type is required",
+      "Options": { "for_rent": "For Rent", "for_sale": "For Sale" }
+    },
+    "SubmitBtnComponent": {
+      "value_message": "Send",
+      "value_offer": "Submit Your Offer",
+      "value": "Submit"
+    },
+    "toast_error": "Please log in first!"
+  },
+  "SendMessageForm": {
+    "name": { "placeholder": "Name" },
+    "phone": { "placeholder": "Phone" },
+    "email": { "placeholder": "Email" },
+    "message": { "placeholder": "Message..." },
+    "RatingComponent": { "placeholder": "Add Rating :" },
+    "SubmitBtnComponent": {
+      "value": "Send"
+    },
+    "toast_error": "Please log in first!"
+  },
+  "validations": {
+    "name": {
+      "required": "Name is required"
+    },
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "message": {
+      "required": "Message is required.",
+      "minLength": "Please enter at least 3 letters."
+    },
+    "offer": {
+      "required": "Offer is required.",
+      "pattern": "Invalid Number.",
+      "min": "Invalid Number."
+    },
+    "phone": {
+      "required": "Phone is required.",
+      "pattern": "Invalid Phone number.",
+      "maxLength": "Invalid Phone number.",
+      "minLength": "Invalid Phone number."
+    },
+    "ReCAPTCHA": {
+      "required": "ReCAPTCHA is required."
+    }
+  },
+
+  "for_what": {
+    "for_sale": "For Sale",
+    "for_rent": "For Rent",
+    "for_both": "For Sale and Rent"
+  },
+  "featuredAside": {
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "for_what_for_both": "For Sale and Rent"
+  },
+  "send_message": "Send Message to Property Owner",
+  "call": "Call",
+  "email": "Email",
+  "whatsapp": "Whatsapp",
+  "save": "Save to favorites",
+  "created": "Created at",
+  "whatsappMsg": "Check this property from Amtalek",
+  "roi": "Property ROI",
+  "callUs": "Call Us",
+  "phoneNumber": "Phone Number",
+  "brokerName": "Agency Name",
+  "message": "Hello , I am interested in your property and i want to know more about it. {{link}}"
+}

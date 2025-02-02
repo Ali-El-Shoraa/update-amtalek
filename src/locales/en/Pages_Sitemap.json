@@ -1,0 +1,33 @@
+{
+  "tab": {
+    "title": "Amtalek | Sitemap Amtalek platform in Egypt",
+    "description": "Amtalek sitemap in Egypt, including properties, projects, careers and news"
+  },
+  "browse": {
+    "country": "Browse New Jobs in Egypt",
+    "country_link": "Browse New Jobs in Egypt",
+    "region": "Jobs-In-",
+    "job_in": "Jobs In "
+  },
+
+  "property": {
+    "title": "Properties in {{country}}",
+    "property_in": "Properties {{for_what}} in {{city_name}}",
+    "property_in_sale": "Properties for sale in {{city_name}}",
+    "property_in_sale_link": "Properties for_sale in {{city_name}}",
+    "property_in_rent": "Properties for rent in {{city_name}}",
+    "property_in_rent_link": "Properties for_rent in {{city_name}}",
+    "for_sale": "for Sale",
+    "for_rent": "for Rent",
+    "for_both": "for Sale or for Rent"
+  },
+  "news": "News in Egypt",
+
+  "project": {
+    "title": "Projects in {{country}}",
+    "project_in": "Projects in {{city_name}} ",
+    "for_sale": "للبيع",
+    "for_rent": "للأيجار",
+    "for_both": "للبيع او للأيجار"
+  }
+}

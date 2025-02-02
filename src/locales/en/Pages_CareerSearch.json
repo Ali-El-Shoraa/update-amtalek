@@ -1,0 +1,56 @@
+{
+  "tab": {
+    "title": "Amtalek | {{details}} Jobs in Egypt",
+    "description": "Explore Jobs in Egypt. Discover open opportunities with many recruitment companies. search your job now "
+  },
+  "vacancies": {
+    "title": "Job Vacancies"
+  },
+  "browse": {
+    "country": "Browse New Jobs in Egypt",
+    "country_link": "Browse New Jobs in Egypt",
+    "region": "Jobs-In-",
+    "job_in": "Jobs In "
+  },
+  "in": "in",
+  "hero_title": {
+    "career_title": "Careers",
+    "search_title": "Search"
+  },
+  "search_keyword": {
+    "title": "Search by Keyword",
+    "placeholder": "Search by Keyword"
+  },
+  "job_sector": {
+    "title": "Job Sector",
+    "placeholder": "Job Sector"
+  },
+  "categories": {
+    "title": "Categories",
+    "placeholder": "Categories"
+  },
+  "experience": {
+    "title": "Years of experience",
+    "min": {
+      "placeholder": "Min"
+    },
+    "max": {
+      "placeholder": "Max"
+    }
+  },
+  "location": {
+    "title": "Location",
+    "placeholder": "Location"
+  },
+  "company": {
+    "title": "Company",
+    "placeholder": "Company"
+  },
+  "job_types": {
+    "title": "Job Types"
+  },
+  "work_place": {
+    "title": "Work Place"
+  },
+  "submit_btn": "Search"
+}

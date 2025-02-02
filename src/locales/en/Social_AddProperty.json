@@ -1,0 +1,16 @@
+{
+  "title": "Add property details",
+  "adstitle": "Advertisement title : ",
+  "type": "Type : ",
+  "videoLink": "Video Link : ",
+  "price": "Price : ",
+  "adStatus": "Ad Status",
+  "forSale": "For Sale",
+  "forRent": "For Rent",
+  "location": "Location : ",
+  "download": "Download property photos here",
+  "format": "File Format",
+  "addescription": "Ad Description : ",
+  "add": "Add Property",
+  "cancel": "Cancel"
+}

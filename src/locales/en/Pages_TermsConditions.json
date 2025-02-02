@@ -1,0 +1,16 @@
+{
+  "tab": {
+    "title": "Amtalek | {{details}}",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt"
+  },
+
+  "heading": "AMTALEK TERMS & PRIVACY",
+  "sub_heading": "Terms & Conditions - Privacy",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "terms": {
+    "title": "Terms & Conditions"
+  },
+  "Privacy": {
+    "title": "Privacy"
+  }
+}

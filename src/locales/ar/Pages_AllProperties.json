@@ -1,0 +1,59 @@
+{
+  "tab": {
+    "title": " أمتلك.كوم | جميع القارات ",
+    "description": "أمتلك.كوم |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "heading": "جميع العقارات",
+  "sub_heading": "جميع العقارات المفضلة",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage": "لا توجد عقارات الآن!",
+  "PropertyCard": {
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms_one": "غرفة نوم",
+    "Bedrooms_two": "غرفتين نوم",
+    "Bedrooms_few": "{{count}} غرف نوم",
+    "Bedrooms_many": "{{count}} غرفة نوم",
+    "Bedrooms_other": "{{count}} غرفة نوم",
+    "Bathrooms_one": "حمام",
+    "Bathrooms_two": "حمامين",
+    "Bathrooms_few": "{{count}} حمامات",
+    "Bathrooms_many": "{{count}} حمام",
+    "Bathrooms_other": "{{count}} حمام",
+    "Month": "شهر",
+    "share_options": {
+      "Facebook": "فيسبوك",
+      "Twitter": "تويتر",
+      "Vimeo": "فيميو"
+    }
+  },
+  "Pagination": {
+    "Previous": "السابق",
+    "Next": "التالي"
+  },
+  "LatestProperties": {
+    "title": "أحدث العقارات",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "شهر"
+  },
+  "PropertiesCategories": {
+    "title": "فئات العقارات"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "عقارات مميزة",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "شهر"
+  }
+}

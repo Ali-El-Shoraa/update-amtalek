@@ -1,0 +1,52 @@
+{
+  "tab": {
+    "title": "Amtalek | {{details}}",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt"
+  },
+
+  "heading": "MY PROPERTIES",
+  "heading_from": "MY RECEIVED OFFERS ",
+
+  "headingOffers": "MY OFFERS TO PROPERTIES",
+
+  "sub_heading": "All of my properties",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "Your Properties list is empty! Hurry up and add some properties now!",
+  "PropertyCard": {
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "accepted_zero": "Under Review",
+    "accepted_one": "Accepted",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms": "{{count, number}} Bedrooms",
+    "Bathrooms": "{{count, number}} Bathrooms",
+    "Month": "Month",
+    "share_options": {
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Vimeo": "Vimeo"
+    },
+    "Actions": { "Delete": "Delete" }
+  },
+  "DeletePopUp": {
+    "DeletePopUpTitle": "Are you sure you want to delete this property ?",
+    "SubmitBtnText": "Confirm",
+    "CancelBtnText": "Cancel",
+    "toast_error": "Please log in first!"
+  },
+  "Pagination": {
+    "Previous": "Previous",
+    "Next": "Next"
+  },
+  "offer": "My Offer",
+  "status": "Status",
+  "interactions": "Interactions Rate",
+  "impressions": "Total Search Impressions",
+  "totalView": "Total Pages Views",
+  "totalLeads": "Total Leads"
+}

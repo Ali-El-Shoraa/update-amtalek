@@ -1,0 +1,19 @@
+{
+  "tab": {
+    "title": "Amtalek | CITIES",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt",
+    "canonical": "cities"
+  },
+  "heading": "ALL CITIES",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "There are no cities!",
+
+  "CityCard": {
+    "Properties": "Properties",
+    "CTA_txt": "View Properties",
+    "total_count_formatted": "{{count, number}} Properties",
+    "rent_count_formatted": "{{count, number}} Properties for rent",
+    "sale_count_formatted": "{{count, number}} Properties for sale"
+  },
+  "placeholder": "Enter city name"
+}

@@ -1,0 +1,16 @@
+{
+  "tab": {
+    "title": "Amtalek | All NEWS",
+    "description": "AMTALEK | Stay updated with the latest news and updates from Amtalek. Explore breaking news, insightful articles, and updates across various industries. Your go-to source for reliable and timely information."
+  },
+
+  "heading": "ALL NEWS",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "There are no news!",
+  "NewsCard": { "CTA_txt": "Full Article", "by": "By:", "date": "Date:" },
+  "Pagination": {
+    "Previous": "Previous",
+    "Next": "Next"
+  },
+  "placeholder": "What is the article you are searching for ?"
+}

@@ -1,0 +1,147 @@
+{
+  "Navbar": {
+    "menu_items": {
+      "Home": "الرئيسية",
+      "Find_Properties": {
+        "title": "ابحث عن عقارات",
+        "For_Sale": {
+          "title": "للبيع",
+          "Residential": "سكني للبيع",
+          "Commercial": "تجاري للبيع"
+        },
+        "For_Rent": {
+          "title": "للإيجار",
+          "Residential": "سكني للإيجار",
+          "Commercial": "تجاري للإيجار"
+        }
+      },
+      "Careers": {
+        "browse_jobs": "استكشاف الوظايف",
+        "for_employers": "شركات توظيف"
+      },
+      "Brokers": "وكلاؤنا",
+      "Projects": "المشاريع",
+      "Cities": {
+        "title": "المدن",
+        "drop_down": {
+          "title": "الأماكن الأكثر شهرة"
+        }
+      },
+      "Contact_Us": "اتصل بنا",
+      "Job_Career": "وظايف",
+      "CityCard": {
+        "total_count_formatted": "{{count, number}} عقارات",
+        "rent_count_formatted": "{{count, number}} عقارات للإيجار",
+        "sale_count_formatted": "{{count, number}} عقارات للبيع"
+      }
+    },
+    "social": {
+      "title": "التواصل الاجتماعي",
+      "title_job": "تبحث عن وظيفة؟",
+      "employer": "صاحب عمل"
+    },
+    "Login_drop_down_menu": {
+      "heading": "تسجيل الدخول",
+      "sub_heading": "تسجيل الدخول أو إنشاء حساب جديد",
+      "Login_btn_txt": "تسجيل الدخول",
+      "Register_btn_txt": "إنشاء حساب",
+      "jobseeker": "للباحثين عن عمل"
+    }
+  },
+  "New": "جديد",
+  "NavDropDownMenu": {
+    "menu_items": {
+      "my_profile": {
+        "btn_txt": "الصفحة الشخصية"
+      },
+      "my_dashboard": {
+        "btn_txt": " لوحة التحكم"
+      },
+      "Log_out": {
+        "btn_txt": "تسجيل الخروج"
+      },
+      "welcome": "مرحبا <strong>{{name}}</strong>"
+    }
+  },
+  "Footer": {
+    "second_column": {
+      "title": "روابط سريعة",
+      "menu_items": {
+        "Home": { "title": "الرئيسية", "link": "/" },
+        "News": { "title": "الأخبار", "link": "/news" },
+        "FAQs": { "title": "الأسئلة الشائعة", "link": "/faqs" },
+        "Contact": { "title": "اتصل بنا", "link": "/contact" },
+        "login": { "title": "تسجيل الدخول", "link": "/login" },
+        "About": { "title": "معلومات عنا", "link": "/about-us" },
+        "Cities": { "title": "المدن", "link": "/cities" },
+        "Careers": { "title": "وظائف", "link": "/careers" },
+        "Projects": { "title": "المشروعات", "link": "/projects" },
+        "Submit_Property": {
+          "title": "إضافة عقار",
+          "link": "submit-property",
+          "dashboardTitle": "الذهاب الي لوحة التحكم",
+          "dashboardLink": "{{dashboardLink}}",
+          "no_permission_link": "packages/{{type}}"
+        },
+        "Terms_Conditions": {
+          "title": "الأحكام والشروط",
+          "link": "/terms-conditions"
+        },
+        "Privacy": {
+          "title": "الخصوصية",
+          "link": "/privacy"
+        },
+        "Amtalek_Presentation": {
+          "title": "عرض تقديمي",
+          "link": "../../pdf/presentation/amtalek-presentation-ar.pdf"
+        }
+      }
+    },
+    "third_column": {
+      "title": "أحدث الأخبار"
+    },
+    "fourth_column": {
+      "title": "اشترك",
+      "email": {
+        "placeholder": "أدخل بريدك الإلكتروني",
+        "required_msg": "البريد الالكتروني مطلوب.",
+        "pattern_msg": " البريد الإلكتروني غير صحيح."
+      }
+    }
+  },
+  "CityCard": {
+    "total_count_formatted": "{{count, number}} عقارات",
+    "rent_count_formatted": "{{count, number}} عقارات للإيجار",
+    "sale_count_formatted": "{{count, number}} عقارات للبيع"
+  },
+  "Layout_header": {
+    "txt": "أمتلك.كوم سوف تساعدك في العثور على العقارات الخاصة بك."
+  },
+  "HeaderTopMenu": {
+    "Favorites": "المفضلة",
+    "Submit_Property": "اضافة عقار",
+    "login": "تسجيل الدخول / إنشاء حساب",
+    "profile": "حسابي",
+    "my_properties": "عقاراتي",
+    "go_to_dashboard": "الذهاب إلى لوحة القيادة",
+    "packages": "الباقات"
+  },
+  "LoginPopUp": {
+    "heading": "أمتلك.كوم",
+    "sub_heading": "يجب عليك تسجيل الدخول أولا!",
+    "login": "تسجيل الدخول",
+    "Register": "إنشاء حساب"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "هل أنت متأكد أنك تريد تسجيل الخروج ؟",
+    "SubmitBtnText": "تأكيد",
+    "CancelBtnText": "إلغاء",
+    "toast_error": "برجاء تسجيل الدخول أولا!"
+  },
+  "SelectCountry": "اختر الدولة",
+  "evaluate": "رأيك يهمنا",
+  "evaluateButton": "إرسال",
+  "evaluatePlaceholder": "برجاء المساعده عن طريق شرح سبب التقييم",
+  "possible": "محتمل للغايه",
+  "impossible": "غير محتمل علي الإطلاق"
+}

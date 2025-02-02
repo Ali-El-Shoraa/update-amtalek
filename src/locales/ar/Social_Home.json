@@ -1,0 +1,53 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | وسائل التواصل الأجتماعي ",
+    "description": " أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "story": "اضافة قصة",
+  "inputplaceholder": "أكتب شيئاً تفكر فيه..",
+  "video": "فيديو",
+  "photo": "صورة",
+  "postBtn": "نشر",
+  "like": "اعجاب",
+  "comment": "تعليق",
+  "share": "مشاركة",
+  "likes_zero": "",
+  "likes_one": "{{count}} اعجاب",
+  "likes_two": "{{count}} اعجاب",
+  "likes_few": "{{count}} اعجاب",
+  "likes_many": "{{count}} اعجاب",
+  "likes_other": "{{count}} اعجاب",
+  "comments_zero": "",
+  "comments_one": "{{count}} تعليق",
+  "comments_two": "{{count}} تعليق",
+  "comments_few": "{{count}} تعليقات",
+  "comments_many": "{{count}} تعليقات",
+  "comments_other": "{{count}} تعليقات",
+  "shares_zero": "",
+  "shares_one": "{{count}} مشاركة",
+  "shares_two": "{{count}} مشاركة",
+  "shares_few": "{{count}} مشاركات",
+  "shares_many": "{{count}} مشاركات",
+  "shares_other": "{{count}} مشاركات",
+  "reply": "رد",
+  "suggestionDevelopers": "المطورين المقترحين",
+  "writePostPrivacy": {
+    "public": "عام",
+    "friends": "أصدقاء",
+    "onlyMe": "انا فقط"
+  },
+  "createPost": "اضافة منشور",
+  "writingModalPlaceholder": "ما الذي يدور في ذهنك، {{name}}؟",
+  "addToPost": "أضف إلى منشورك",
+  "addphoto": "اضافة صورة او فيديو",
+  "addProperty": {
+    "title": "أضف الممتلكات الخاصة بك",
+    "property": "أضف خاصية",
+    "project": "أضف المشروع"
+  },
+  "post": {
+    "join": "انضم",
+    "joined": "منضم"
+  },
+  "recent": " النشاط الأخير"
+}

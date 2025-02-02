@@ -1,0 +1,26 @@
+// swiperjs slider control in the all ADS in all page
+.swiper-button-next.custom-next,
+.swiper-button-prev.custom-prev {
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next.custom-next {
+  background-color: #005879;
+  color: white;
+}
+
+.swiper-button-prev.custom-prev {
+  border: 2px solid #005879;
+  background-color: white;
+  color: #005879;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "" !important;
+}

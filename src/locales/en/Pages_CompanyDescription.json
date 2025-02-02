@@ -1,0 +1,104 @@
+{
+  "tab": {
+    "title": "Amtalek | {{details}}",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt"
+  },
+  "company": "Company Story",
+  "map_title": "Location:",
+  "more_jobs": "See Jobs",
+  "form": {
+    "head_title": "Get in touch!",
+
+    "input_name": {
+      "label": "Your Name",
+      "placeholder": "Name",
+      "validations": {
+        "company_name": {
+          "required": "Name is required"
+        }
+      }
+    },
+    "input_email": {
+      "label": "Your Email",
+      "placeholder": "Email",
+      "validations": {
+        "company_name": {
+          "required": "Email is required"
+        }
+      }
+    },
+    "input_subject": {
+      "label": "Subject",
+      "placeholder": "Subject",
+      "validations": {
+        "company_name": {
+          "required": "البريد الإلكتروني مطلوب"
+        }
+      }
+    },
+    "input_phone": {
+      "label": "Phone",
+      "placeholder": "Phone",
+      "validations": {
+        "company_name": {
+          "required": "البريد الإلكتروني مطلوب"
+        }
+      }
+    },
+    "message": {
+      "placeholder": "Message",
+      "validations": {
+        "company_name": {
+          "required": "Message is required"
+        }
+      }
+    }
+  },
+
+  "vacancies": {
+    "title": "Vacancies"
+  },
+  "submit": {
+    "title": "Submit"
+  },
+  "validations": {
+    "name": {
+      "required": "Name is required"
+    },
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "subject": {
+      "required": "Subject is required.",
+      "pattern": "Invalid Subject Address."
+    },
+    "message": {
+      "required": "Message is required.",
+      "minLength": "Please enter at least 3 letters."
+    },
+
+    "phone": {
+      "required": "Phone is required.",
+      "pattern": "Invalid Phone number.",
+      "maxLength": "Invalid Phone number.",
+      "minLength": "Invalid Phone number."
+    },
+    "ReCAPTCHA": {
+      "required": "ReCAPTCHA is required."
+    }
+  },
+
+  "popup": {
+    "heading": "Login!",
+    "sub_heading": "Make an account and submit your CV.!",
+    "sub_heading_as_user": "Log in as a user",
+    "sub_heading_two": "Send your CV without Loging!",
+    "sub_heading_first_name": "First Name",
+    "sub_heading_email": "Email",
+    "sub_heading_phone": "Phone Number",
+    "submit_data_without_login": "Submit your details",
+    "login": "Log in",
+    "Register": "Sign up"
+  }
+}

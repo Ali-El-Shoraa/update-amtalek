@@ -1,0 +1,52 @@
+{
+  "hero_title": {
+    "career_title": "Careers",
+    "search_title": "Search",
+    "job_title": "Job Details"
+  },
+
+  "job_information": {
+    "job_description": {
+      "title": "Job Details"
+    },
+    "job_responsibility": {
+      "title": "Responsibilities"
+    },
+    "required_experience": {
+      "title": "Required Qualifications"
+    },
+    "company_name": {
+      "title": "Company Name"
+    },
+    "from": "From",
+    "to": "To",
+    "job_type": {
+      "title": "Job Type"
+    },
+    "location": {
+      "title": "Location"
+    },
+    "job_sector": {
+      "title": "Job Sector"
+    },
+    "job_category": {
+      "title": "Category"
+    },
+    "experience": {
+      "title": "Experience"
+    },
+    "workplace": {
+      "title": "Workplace"
+    },
+    "salary": {
+      "title": "Salary"
+    },
+    "date": {
+      "title": "Date posted"
+    }
+  },
+  "related_vacancies": {
+    "title": "Explore Jobs",
+    "description": "Explore Jobs in Egypt. Discover open opportunities with many recruitment companies. search your job now "
+  }
+}

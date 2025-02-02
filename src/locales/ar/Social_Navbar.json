@@ -1,0 +1,18 @@
+{
+  "inputPlaceholder": "البحث عن الأخبار..",
+  "marketBtn": "السوق",
+  "logout": "تسجيل الخروج",
+  "writePostPrivacy": {
+    "public": "عام",
+    "friends": "أصدقاء",
+    "onlyMe": "انا فقط"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "هل أنت متأكد أنك تريد تسجيل الخروج ؟",
+    "SubmitBtnText": "يتأكد",
+    "CancelBtnText": "يلغي",
+    "toast_error": "الرجاء تسجيل الدخول أولا!"
+  },
+  "login": "تسجيل الدخول",
+  "signup": "انشاء حساب"
+}

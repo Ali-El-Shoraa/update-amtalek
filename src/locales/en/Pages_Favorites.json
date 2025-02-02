@@ -1,0 +1,34 @@
+{
+  "tab": {
+    "title": "Amtalek | Favorites",
+    "description": "AMTALEK | Amtalek offers complete CRM to manage your team and company tasks. Also you can search for your property through a wide variety of properties for sale or rent in Cairo, Giza and all over Egypt."
+  },
+
+  "heading": "MY FAVORITE PROPERTIES",
+  "sub_heading": "All my favorite properties",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "Your Favorites list is empty! Hurry up and add some properties now!",
+  "PropertyCard": {
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms": "{{count, number}} Bedrooms",
+    "Bathrooms": "{{count, number}} Bathrooms",
+    "Month": "Month",
+    "share_options": {
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Vimeo": "Vimeo"
+    },
+    "Actions": { "Delete": "Delete" }
+  },
+  "Pagination": {
+    "Previous": "Previous",
+    "Next": "Next"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "تفاصيل المشروع",
+  "projectName": "اسم المشروع : ",
+  "projectDescription": "وصف المشروع : ",
+  "country": "الدولة  ",
+  "city": "المدينة  ",
+  "region": "المنطقة  ",
+  "videoLink": "رابط الفيديو : ",
+  "location": "الموقع : ",
+  "totalUnits": "الوحدات الكلية : ",
+  "bedrooms": "عدد غرف النوم : ",
+  "pricefrom": "السعر من : ",
+  "status": "الحالة"
+}

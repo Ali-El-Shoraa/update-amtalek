@@ -1,0 +1,206 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | عقارات في مصر - عقارات لإيجار وبيع في مصر",
+    "description": " أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "Hero": {
+    "CTA_Text": "عرض العقارات"
+  },
+  "HeaderTopMenu": {
+    "Favorites": "المفضلة",
+    "Submit_Property": "اضافة عقار",
+    "login": "تسجيل الدخول / إنشاء حساب",
+    "my_properties": "عقاراتي",
+    "profile": "حسابي",
+    "go_to_dashboard": "الذهاب إلى لوحة القيادة",
+    "packages": "الباقات"
+  },
+  "LatestProperties": {
+    "filter": {
+      "LATEST": "الأحدث",
+      "SALE": "للبيع",
+      "RENT": "للإيجار"
+    },
+    "no_filtered_data": "لا يوجد نتائح",
+    "main_CTA": "عرض جميع العقارات"
+  },
+  "PropertiesCategories": {
+    "title": "فئات العقارات"
+  },
+  "MarketSection": {
+    "Market_btn_text": "التواصل الاجتماعي",
+    "Market_btn_text_job": "إبحث عن الكفائات الأن"
+  },
+  "PopularPlaces": {
+    "main_CTA": "عرض جميع المدن"
+  },
+
+  "MostViews": {
+    "main_CTA": "عرض جميع العروض"
+  },
+  "LatestNews": {
+    "main_CTA": "عرض جميع الأخبار"
+  },
+  "Brokers": {
+    "main_CTA": "عرض جميع الوكلاء"
+  },
+  "FeaturedPropertyCard": {
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number}} م²",
+
+    "Bedrooms_zero": " {{count}} غرفة نوم",
+    "Bedrooms_one": "غرفة نوم",
+    "Bedrooms_two": "غرفتين نوم",
+    "Bedrooms_few": "{{count}} غرف نوم",
+    "Bedrooms_many": "{{count}} غرفة نوم",
+    "Bedrooms_other": "{{count}} غرفة نوم",
+    "Bathrooms_zero": " {{count}} حمام",
+    "Bathrooms_one": "حمام",
+    "Bathrooms_two": "حمامين",
+    "Bathrooms_few": "{{count}} حمامات",
+    "Bathrooms_many": "{{count}} حمام",
+    "Bathrooms_other": "{{count}} حمام",
+    "Month": "شهر"
+  },
+  "PropertyCard": {
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number}} م²",
+    "yearly": "سنة",
+    "monthly": "شهر",
+    "daily": "يوم",
+    "Bedrooms_zero": " {{count}} غرفة نوم",
+    "Bedrooms_one": "غرفة نوم",
+    "Bedrooms_two": "غرفتين نوم",
+    "Bedrooms_few": "{{count}} غرف نوم",
+    "Bedrooms_many": "{{count}} غرفة نوم",
+    "Bedrooms_other": "{{count}} غرفة نوم",
+    "Bathrooms_zero": " {{count}} حمام",
+    "Bathrooms_one": "حمام",
+    "Bathrooms_two": "حمامين",
+    "Bathrooms_few": "{{count}} حمامات",
+    "Bathrooms_many": "{{count}} حمام",
+    "Bathrooms_other": "{{count}} حمام",
+    "Month": "شهر",
+    "share_options": {
+      "Facebook": "فيسبوك",
+      "Twitter": "تويتر",
+      "Vimeo": "فيميو"
+    },
+    "Actions": {
+      "Delete": "حذف"
+    }
+  },
+  "CityCard": {
+    "total_count_formatted": "{{count, number}} عقارات",
+    "rent_count_formatted": "{{count, number}} عقارات للإيجار",
+    "sale_count_formatted": "{{count, number}} عقارات للبيع"
+  },
+  "MostViewCard": {
+    "Start_From": "السعر",
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number}} م²",
+    "Bedrooms_one": "غرفة نوم",
+    "Bedrooms_two": "غرفتين نوم",
+    "Bedrooms_few": "{{count}} غرف نوم",
+    "Bedrooms_many": "{{count}} غرفة نوم",
+    "Bedrooms_other": "{{count}} غرفة نوم",
+    "Bathrooms_one": "حمام",
+    "Bathrooms_two": "حمامين",
+    "Bathrooms_few": "{{count}} حمامات",
+    "Bathrooms_many": "{{count}} حمام",
+    "Bathrooms_other": "{{count}} حمام",
+    "Month": "شهر",
+    "share_options": {
+      "Facebook": "فيسبوك",
+      "Twitter": "تويتر",
+      "Vimeo": "فيميو"
+    }
+  },
+  "NewsCard": {
+    "CTA_txt": "المقال كامل",
+    "by": "بواسطة:",
+    "date": "الوقت:"
+  },
+  "LoginPopUp": {
+    "heading": "أمتلك.كوم",
+    "sub_heading": "يجب عليك تسجيل الدخول أولا!",
+    "sub_heading_as_user": "سجل الدخول كمستخدم",
+    "sub_heading_two": "إظهر بيانات مالك العقار بدون تسجيل الدخول !",
+    "sub_heading_first_name": "الأسم الأول",
+    "sub_heading_company_name": "أسم الشركة",
+    "sub_heading_email": "البريد الإلكتروني",
+    "sub_heading_phone": "رقم الهاتف",
+    "submit_data_without_login": "أرسل بياناتك",
+    "login": "تسجيل الدخول",
+    "Register": "إنشاء حساب",
+    "heading_Form_project_orintation": "هل تحتاج إلى التواصل؟",
+    "sub_heading_Form_project_orintation": "يرجى ملء النموذج"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "هل أنت متأكد أنك تريد تسجيل الخروج ؟",
+    "SubmitBtnText": "تأكيد",
+    "CancelBtnText": "إلغاء",
+    "toast_error": "برجاء تسجيل الدخول أولا!"
+  },
+  "ImagesSection": {
+    "Agencies": {
+      "header": "ابحث عن وكالة",
+      "paragraph": "اكتشف تنوع العقارات من أفضل الوكالات"
+    },
+    "Search": {
+      "header": "البحث عن العقارات",
+      "paragraph": "ابحث عن منزلك"
+    },
+    "Find": {
+      "header": "البحث عن العقارات",
+      "paragraph": "ابحث عن منزلك"
+    }
+  },
+
+  "AsideForm": {
+    "name": {
+      "placeholder": "الاسم"
+    },
+    "phone": {
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "placeholder": "البريد الإلكتروني"
+    },
+    "message": {
+      "placeholder": "الرسالة..."
+    },
+    "offer": {
+      "placeholder": "العرض"
+    },
+    "offer_type": {
+      "placeholder": "نوع العرض",
+      "err_msg": "نوع العرض مطلوب.",
+      "Options": { "for_rent": "للإيجار", "for_sale": "للبيع" }
+    },
+    "SubmitBtnComponent": {
+      "value_message": "إرسال",
+      "value_offer": "أرسل عرضك",
+      "value": "إرسال"
+    },
+    "toast_error": "برجاء تسجيل الدخول أولا!"
+  }
+}

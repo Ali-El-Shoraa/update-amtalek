@@ -1,0 +1,19 @@
+{
+  "inputPlaceholder": "Search for news..",
+  "marketBtn": "Market",
+  "logout": "Log out",
+  "writePostPrivacy": {
+    "public": "Public",
+    "friends": "Friends",
+    "onlyMe": "Only me"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "Are you sure you want to logout ?",
+    "SubmitBtnText": "Confirm",
+    "CancelBtnText": "Cancel",
+    "toast_error": "Please log in first!"
+  },
+  "welcome": "Welcome",
+  "login": "Login",
+  "signup": "Sign Up"
+}

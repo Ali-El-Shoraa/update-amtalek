@@ -1,0 +1,70 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | {{details}}",
+    "description": "أمتلك.كوم |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "heading": "عروض العقارات الخاصة بي",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage": "لا توجد عروض حتي الآن!",
+  "EditOfferPopUp": {
+    "EditPopUpTitle": "إعادة إرسال العرض",
+    "cancelBtnText": "إلغاء",
+    "toast_error": "الرجاء تسجيل الدخول أولا!",
+    "name": {
+      "placeholder": "الاسم"
+    },
+    "phone": {
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "placeholder": "البريد الإلكتروني"
+    },
+    "message": {
+      "placeholder": "الرسالة..."
+    },
+    "offer": {
+      "placeholder": "العرض"
+    },
+    "SubmitBtnComponent": {
+      "value": "إعادة إرسال العرض"
+    }
+  },
+  "OfferCard": {
+    "offer__budget_txt": "عرضي هو:",
+    "status": "الحالة:",
+    "actions": {
+      "resent": "إعادة إرسال العرض"
+    }
+  },
+  "Pagination": {
+    "Previous": "السابق",
+    "Next": "التالي"
+  },
+  "validations": {
+    "name": {
+      "required": "الاسم مطلوب"
+    },
+    "email": {
+      "required": "البريد الالكتروني مطلوب.",
+      "pattern": " البريد الإلكتروني غير صحيح."
+    },
+    "message": {
+      "required": "الرسالة مطلوبة.",
+      "minLength": "الرجاء إدخال ٣ أحرف على الأقل."
+    },
+    "offer": {
+      "required": "العرض مطلوب.",
+      "pattern": "رقم غير صحيح.",
+      "min": "رقم غير صحيح."
+    },
+    "phone": {
+      "required": "الهاتف مطلوب.",
+      "pattern": "رقم الهاتف غير صحيح.",
+      "maxLength": "رقم الهاتف غير صحيح.",
+      "minLength": "رقم الهاتف غير صحيح."
+    },
+    "ReCAPTCHA": {
+      "required": "انا لست روبوت مطلوب!"
+    }
+  }
+}

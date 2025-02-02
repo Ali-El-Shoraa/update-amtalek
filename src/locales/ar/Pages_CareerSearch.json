@@ -1,0 +1,57 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | {{details}} وظيفة في مصر",
+    "description": "ابحث عن وظائف وفرص عمل ومسارات مهنية. بعض الشركات التي ساعدناها في توظيف المتقدمين الممتازين على مر السنين"
+  },
+  "vacancies": {
+    "title": "الوظائف الشاغرة"
+  },
+  "in": "في",
+
+  "browse": {
+    "country": "تصفح الوظائف الجديدة في مصر",
+    "country_link": "Browse New Jobs in Egypt",
+    "job_in": "وظائف في "
+  },
+
+  "hero_title": {
+    "career_title": "وظايف",
+    "search_title": "أبحث"
+  },
+  "search_keyword": {
+    "title": "ابحث عن نوع الوظيفة",
+    "placeholder": "ابحث عن نوع الوظيفة"
+  },
+  "job_sector": {
+    "title": "قطاع الوظيفة",
+    "placeholder": "قطاع الوظيفة"
+  },
+  "categories": {
+    "title": "الفئات",
+    "placeholder": "الفئات"
+  },
+  "experience": {
+    "title": "سنوات الخبرة",
+    "min": {
+      "placeholder": "الحد الأدنى"
+    },
+    "max": {
+      "placeholder": "الحد الأقصى"
+    }
+  },
+  "location": {
+    "title": "الموقع",
+    "placeholder": "الموقع"
+  },
+  "company": {
+    "title": "الشركة",
+    "placeholder": "الشركة"
+  },
+  "job_types": {
+    "title": "أنواع الوظائف"
+  },
+  "work_place": {
+    "title": "مكان العمل"
+  },
+  "submit_btn": "بحث"
+}

@@ -1,0 +1,49 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | {{details}} ",
+    "description": "أمتلك.كوم |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "by": "بواسطة",
+  "ShareComponent": {
+    "txt": "نشر",
+    "txt_property": "نشر هذا العقار",
+    "txt_article": "نشر هذه المقال",
+    "txt_project": "نشر هذا المشروع",
+    "Facebook": "فيسبوك",
+    "whatsapp": "واتساب",
+    "Twitter": "تويتر",
+    "Google": "جوجل"
+  },
+  "LATEST_NEWS": "أحدث الأخبار",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NewsCard": {
+    "CTA_txt": "المقال كامل",
+    "by": "بواسطة:",
+    "date": "الوقت:"
+  },
+  "LatestProperties": {
+    "title": "أحدث العقارات",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "شهر"
+  },
+  "PropertiesCategories": {
+    "title": "فئات العقارات"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "عقارات مميزة",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "شهر"
+  },
+  "featuredAside": {
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "for_what_for_both": "للبيع و للإيجار"
+  },
+  "whatsappMsg": "تصفح هذا الخبر من منصة أمتلك.كوم"
+}

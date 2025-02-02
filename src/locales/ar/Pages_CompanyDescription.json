@@ -1,0 +1,109 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | {{details}} ",
+    "description": "أمتلك.كوم |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "company": "عن الشركة",
+  "map_title": "الموقع:",
+  "more_jobs": "عرض الوظائف الشاغرة",
+  "form": {
+    "head_title": "تواصل معنا!",
+    "input_name": {
+      "label": "الاسم",
+      "placeholder": "الأسم",
+      "validations": {
+        "company_name": {
+          "required": "ألأسم مطلوب"
+        }
+      }
+    },
+    "input_email": {
+      "label": "البريد الإلكتروني",
+      "placeholder": "البريد الإلكتروني",
+      "validations": {
+        "company_name": {
+          "required": "البريد الإلكتروني مطلوب"
+        }
+      }
+    },
+    "input_subject": {
+      "label": "الموضوع",
+      "placeholder": "الموضوع",
+      "validations": {
+        "company_name": {
+          "required": "البريد الإلكتروني مطلوب"
+        }
+      }
+    },
+    "input_phone": {
+      "label": "رقم الهاتف",
+      "placeholder": "رقم الهاتف",
+      "validations": {
+        "company_name": {
+          "required": "البريد الإلكتروني مطلوب"
+        }
+      }
+    },
+    "message": {
+      "placeholder": "أكتب رسالتك",
+      "validations": {
+        "company_name": {
+          "required": "كتابة الرسالة مطلوبة"
+        }
+      }
+    }
+  },
+
+  "vacancies": {
+    "title": "الوظائف الشاغرة"
+  },
+
+  "submit": {
+    "title": "أرسل"
+  },
+
+  "validations": {
+    "name": {
+      "required": "الاسم مطلوب"
+    },
+    "email": {
+      "required": "البريد الالكتروني مطلوب.",
+      "pattern": " البريد الإلكتروني غير صحيح."
+    },
+    "subject": {
+      "required": "برجاء كتابة الموضوع",
+      "pattern": "Invalid Subject Address."
+    },
+    "message": {
+      "required": "الرسالة مطلوبة.",
+      "minLength": "الرجاء إدخال ٣ أحرف على الأقل."
+    },
+    "offer": {
+      "required": "العرض مطلوب.",
+      "pattern": "رقم غير صحيح.",
+      "min": "رقم غير صحيح."
+    },
+    "phone": {
+      "required": "الهاتف مطلوب.",
+      "pattern": "رقم الهاتف غير صحيح.",
+      "maxLength": "رقم الهاتف غير صحيح.",
+      "minLength": "رقم الهاتف غير صحيح."
+    },
+    "ReCAPTCHA": {
+      "required": "انا لست روبوت مطلوب!"
+    }
+  },
+
+  "popup": {
+    "heading": "تسجيل الدخول!",
+    "sub_heading": "قم بإنشاء حساب وإرسال سيرتك الذاتية!",
+    "sub_heading_as_user": "سجل الدخول كمستخدم",
+    "sub_heading_two": "أرسل سيرتك الذاتية بدون تسجيل الدخول!",
+    "sub_heading_first_name": "الأسم الأول",
+    "sub_heading_email": "البريد الإلكتروني",
+    "sub_heading_phone": "رقم الهاتف",
+    "submit_data_without_login": "أرسل بياناتك",
+    "login": "تسجيل الدخول",
+    "Register": "إنشاء حساب"
+  }
+}

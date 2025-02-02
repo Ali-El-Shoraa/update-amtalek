@@ -1,0 +1,72 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | {{details}} ",
+    "description": "أمتلك.كوم |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "heading": "صفحتي الشخصية",
+  "toast_error": "الرجاء تسجيل الدخول أولا!",
+  "form": {
+    "UploadFileComponent_btnText": "تحميل صورة",
+    "first_name": {
+      "label": "الاسم الأول",
+      "placeholder": "الاسم الأول"
+    },
+    "last_name": {
+      "label": "الاسم الثاني",
+      "placeholder": "الاسم الثاني"
+    },
+    "phone": {
+      "label": "الهاتف",
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "label": "البريد الإلكتروني",
+      "placeholder": "البريد الإلكتروني"
+    },
+    "current_password": {
+      "label": "كلمة المرور الحالية",
+      "placeholder": "كلمة المرور الحالية"
+    },
+    "new_password": {
+      "label": "كلمة المرور الجديدة",
+      "placeholder": "كلمة المرور الجديدة"
+    },
+    "confirm_new_password": {
+      "label": "تأكيد كلمة المرور الجديدة",
+      "placeholder": "تأكيد كلمة المرور الجديدة"
+    },
+    "SubmitBtnComponent": {
+      "value": "حفظ التعديلات"
+    }
+  },
+  "validations": {
+    "image": {
+      "required": "الصورة الشخصية مطلوبة",
+      "validate": "الحد الاقصي لحجم الصورة هو 5 ميجا."
+    },
+    "first_name": {},
+    "last_name": {},
+    "phone": {
+      "pattern": "رقم الهاتف غير صحيح.",
+      "maxLength": "رقم الهاتف غير صحيح.",
+      "minLength": "رقم الهاتف غير صحيح."
+    },
+    "email": {
+      "pattern": " البريد الإلكتروني غير صحيح."
+    },
+    "current_password": {
+      "minLength": "الحد الأدنى لكلمة المرور هو  ٨ أحرف."
+    },
+    "new_password": {
+      "minLength": "الحد الأدنى لكلمة المرور الجديدة هو ٨ أحرف.",
+      "validate_old_vs_new": "لا يمكن أن تكون كلمات المرور القديمة والجديدة متطابقة."
+    },
+    "confirm_new_password": {
+      "minLength": "الحد الأدنى لتأكيد كلمة المرور الجديدة هو  ٨ أحرف.",
+      "validate": "كلمات المرور الجديدة غير متطابقة."
+    },
+    "ReCAPTCHA": {
+      "required": "انا لست روبوت مطلوب!"
+    }
+  }
+}

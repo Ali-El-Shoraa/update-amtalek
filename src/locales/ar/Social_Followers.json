@@ -1,0 +1,15 @@
+{
+  "allfollowers": "كل المتابعون ({{count}})",
+  "maybeKnow": "اصدقاء قد تعرفهم ({{count}})",
+  "seeall": "عرض الكل",
+  "mutual": "{{count}} اصدقاء مشتركين",
+  "confirm": "تأكيد",
+  "delete": "مسح",
+  "friend": "صديق",
+  "following": "متابعة",
+  "addfriend": "اضافة صديق",
+  "remove": "مسح",
+  "favourite": "المفضلة",
+  "unfollow": "الغاء المتابعة",
+  "unfriend": "الغاء الصداقة"
+}

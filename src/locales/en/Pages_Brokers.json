@@ -1,0 +1,21 @@
+{
+  "tab": {
+    "title": "Amtalek | Agencies",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt"
+  },
+
+  "heading": "ALL Agencies",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "There are no Agencies!",
+  "BrokerCard": {
+    "Properties": "Properties",
+    "CTA_txt": "Full Profile",
+    "sale": "Properties for sale",
+    "rent": "Properties for rent"
+  },
+  "Pagination": {
+    "Previous": "Previous",
+    "Next": "Next"
+  },
+  "placeholder": "Enter Agency name"
+}

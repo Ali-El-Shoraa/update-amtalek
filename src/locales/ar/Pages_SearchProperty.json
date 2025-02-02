@@ -1,0 +1,92 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | البحث عن عقار ",
+    "description": "أمتلك.كوم |  اكتشف العقارات المثالية للبيع أو الإيجار عبر محرك البحث المتقدم على موقع أمتلك. ابحث بسهولة عن الشقق، الفيلات، العقارات التجارية. جرب واجهة سهلة الاستخدام مع خيارات بحث دقيقة تلبي جميع احتياجاتك العقارية"
+  },
+  "toast_error": "برجاء تسجيل الدخول أولا!",
+  "heading": "{{prop}}",
+  "sub_heading": "",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage": "لا توجد عقارات!",
+  "sorting_select": {
+    "Featured": "المميزة",
+    "Normal": "العادية",
+    "price_High": "السعر ( الأعلي )",
+    "price_Low": "السعر ( الأقل )",
+    "placeholder": "ترتيب حسب:"
+  },
+  "properties_word": "عقارات",
+  "featured_word": "عقارات مميزة",
+  "normal_word": "عقارات عادية",
+  "show_more_word": "عرض المزيد",
+  "show_less_word": "عرض أقل",
+  "SearchPropertyCard": {
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number}} م²",
+    "Bedrooms_zero": "{{count}} غرفة نوم",
+    "Bedrooms_one": "غرفة نوم",
+    "Bedrooms_two": "غرفتين نوم",
+    "Bedrooms_few": "{{count}} غرف نوم",
+    "Bedrooms_many": "{{count}} غرفة نوم",
+    "Bedrooms_other": "{{count}} غرفة نوم",
+    "Bathrooms_zero": "{{count}} حمام",
+    "Bathrooms_one": "حمام",
+    "Bathrooms_two": "حمامين",
+    "Bathrooms_few": "{{count}} حمامات",
+    "Bathrooms_many": "{{count}} حمام",
+    "Bathrooms_other": "{{count}} حمام",
+    "Month": "شهر",
+    "share_options": {
+      "Facebook": "فيسبوك",
+      "Twitter": "تويتر",
+      "Vimeo": "فيميو"
+    }
+  },
+  "Pagination": {
+    "Previous": "السابق",
+    "Next": "التالي"
+  },
+  "LatestProperties": {
+    "title": "أحدث العقارات",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "شهر"
+  },
+  "PropertiesCategories": {
+    "title": "فئات العقارات"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "عقارات مميزة",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "شهر"
+  },
+  "for_what_one": "للبيع",
+  "for_what_two": "للبيع",
+  "for_what_other": "للإيجار",
+  "in": "في",
+  "propTitle": "عقارات",
+  "featuredAside": {
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "for_what_for_both": "للبيع و للإيجار"
+  },
+
+  "PropertyCard": {
+    "yearly": "سنة",
+    "monthly": "شهر",
+    "3_months": "3 شهور",
+    "9_months": "9 شهور",
+    "daily": "يوم"
+  }
+}

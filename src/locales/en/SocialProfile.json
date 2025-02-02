@@ -1,0 +1,35 @@
+{
+  "buttons": {
+    "story": "Add Story",
+    "edit": "Edit Profile"
+  },
+  "header": {
+    "posts": "Posts",
+    "about": "About",
+    "groups": "Groups",
+    "followers": "Followers",
+    "friends": "Friends"
+  },
+  "leftAside": {
+    "title": "About",
+    "photos": "Photos & Videos",
+    "seeAll": "See All",
+    "account": "Account",
+    "friends": "Friends",
+    "followers": "Followers",
+    "groups": "Groups",
+    "messages": "Messages",
+    "settings": "Settings",
+    "create": "Create new group"
+  },
+  "about": {
+    "title": "About",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "job": "Job Title",
+    "live": "Lives",
+    "dob": "Date of Birth",
+    "website": "Website links"
+  }
+}

@@ -1,0 +1,82 @@
+//!-----------------slick slider-----------------
+
+.slick-slide > div {
+  margin-inline: 2px;
+  // background-color: red;
+  display: flex;
+  justify-content: center;
+  // height: 200px;
+}
+
+.brokers__slider .slick-track {
+  //background-color: red;
+  display: flex !important;
+  align-items: center;
+}
+
+.hero__images--slider .slick-slide > div {
+  margin-inline: 0px;
+}
+
+.LatestProperties__slider .slick-slide > div {
+  margin-block: 25px;
+}
+.Property__bottom--slider .slick-slide > div {
+  margin-inline: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.featured__properties--slider,
+.ItemSlider__bottom-slider,
+.Property__details--similar--properties,
+.LatestProperties__slider,
+.FeaturedProperties__slider--aside {
+  .slick-list {
+    margin: 0 -15px !important;
+  }
+
+  .slick-slide > div {
+    padding: 0 5px !important;
+  }
+  .slick-slide > div {
+    margin-inline: 0px;
+  }
+}
+
+.ItemSlider__top--slider {
+  .slick-slide > div {
+    margin-inline: 0px;
+  }
+}
+
+.ItemSlider__bottom-slider {
+  .slick-slide .slide__img--wrapper {
+    transition: transform 0.3s ease-in-out;
+  }
+  .slick-slide.slick-active.slick-current .slide__img--wrapper {
+    border-width: 2px;
+    padding: 3px;
+    transform: translateY(-15px);
+  }
+
+  .slick-track {
+    // background-color: red;
+    display: flex !important;
+    align-items: center;
+    padding-block: 15px;
+  }
+}
+
+.cities__navbar--slider {
+  .slick-list {
+    margin: 0 -15px !important;
+  }
+
+  .slick-slide > div {
+    padding: 0 15px !important;
+  }
+  .slick-slide > div {
+    margin-inline: 0px;
+  }
+}

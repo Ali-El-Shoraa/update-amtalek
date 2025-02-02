@@ -1,0 +1,33 @@
+{
+  "tab": {
+    "title": "Amtalek | Projects",
+    "description": "AMTALEK | Discover Amtalek's portfolio of innovative projects across various industries. Explore our successful ventures, cutting-edge solutions, and commitment to excellence in every project we undertake."
+  },
+  "noResults": "There are no search results",
+  "heading": "ALL PROJECTS",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "There are no Projects!",
+  "ProjectCard": { "CTA_txt": "View Project" },
+  "Pagination": {
+    "Previous": "Previous",
+    "Next": "Next"
+  },
+  "start": "Starting",
+  "units_one": "Unit",
+  "units_other": "Units",
+  "placeholder": "What Project are you Searching for!",
+  "whatsappMsg": "Check this Project from Amtalek",
+  "developers": {
+    "filter": {
+      "filter_title": "Filter Projects",
+      "developer": "Developers",
+      "city": "Cities",
+      "delivery_date": "Delivery Date"
+    },
+    "most_view": "Most Views Project",
+    "latest_developers": "Latest Developers",
+    "lates_proj": "Latest projects in Egypt",
+    "lates_proj_more": "See More",
+    "main_CTA": "View all developers"
+  }
+}

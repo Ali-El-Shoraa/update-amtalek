@@ -1,0 +1,81 @@
+{
+  "tab": {
+    "title": "Amtalek | Search For Properties",
+    "description": "AMTALEK | Discover the perfect properties for sale or rent through the advanced search engine on Amtalek. Easily search for apartments, villas, commercial properties. Experience an easy-to-use interface with precise search options that meet all your real estate needs"
+  },
+
+  "toast_error": "Please log in first!",
+  "heading": "{{prop}}",
+  "sub_heading": "",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "There are no properties!",
+  "sorting_select": {
+    "Featured": "Featured",
+    "Normal": "Normal",
+    "price_High": "price (High)",
+    "price_Low": "price (Low)",
+    "placeholder": "Sort By:"
+  },
+  "properties_word": "Properties",
+  "featured_word": "Featured",
+  "normal_word": "Normal",
+  "show_more_word": "Show More",
+  "show_less_word": "Show less",
+  "SearchPropertyCard": {
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number}} M²",
+    "Bedrooms": "{{count, number}} Bedrooms",
+    "Bathrooms": "{{count, number}} Bathrooms",
+    "Month": "Month",
+    "share_options": {
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Vimeo": "Vimeo"
+    }
+  },
+  "Pagination": {
+    "Previous": "Previous",
+    "Next": "Next"
+  },
+  "LatestProperties": {
+    "title": "Latest Properties",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "Month"
+  },
+  "PropertiesCategories": {
+    "title": "Properties Categories"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "Featured Properties",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "Month"
+  },
+  "for_what_one": "For Sale",
+  "for_what_two": "For Sale",
+  "for_what_other": "For Rent",
+  "in": "in",
+  "propTitle": "Properties",
+  "featuredAside": {
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "for_what_for_both": "For Sale and Rent"
+  },
+
+  "PropertyCard": {
+    "daily": "Day",
+    "monthly": "Month",
+    "3_months": "3 Months",
+    "9_months": "9 Months",
+    "yearly": "Year"
+  }
+}

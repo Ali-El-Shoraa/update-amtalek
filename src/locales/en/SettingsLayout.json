@@ -1,0 +1,41 @@
+{
+  "menu": {
+    "profile": "Profile",
+    "my_offers": "My Offers",
+    "my_offers_received": "My Received Offers",
+    "my_properties": "My Properties",
+    "submit_property": "Submit Property",
+    "favorites": "Favorites",
+    "packages": "Current Package",
+    "packageInfo": "Package Info",
+    "invoices": "Invoices",
+    "toPackage": "Packages",
+    "messages": "Messages",
+
+    "log_out": "Log Out"
+  },
+  "Layout_header": {
+    "txt": "AMTALEK will help you find your property."
+  },
+  "HeaderTopMenu": {
+    "Favorites": "Favorites",
+    "Submit_Property": "Submit Property",
+    "login": "Login / Register",
+    "profile": "Profile",
+    "my_properties": "My Properties",
+    "go_to_dashboard": "Go to Dashboard"
+  },
+  "LoginPopUp": {
+    "heading": "Amtalek",
+    "sub_heading": "You must login firstly!",
+    "login": "Login",
+    "Register": "Register"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "Are you sure you want to logout ?",
+    "SubmitBtnText": "Confirm",
+    "CancelBtnText": "Cancel",
+    "toast_error": "Please log in first!"
+  },
+  "expiration": "Package will end at : {{date}}"
+}

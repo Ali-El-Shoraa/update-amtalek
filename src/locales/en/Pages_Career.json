@@ -1,0 +1,31 @@
+{
+  "tab": {
+    "title": "Jobs in Egypt | Explore Jobs in Amtalek",
+    "description": "Explore Jobs in Egypt. Discover open opportunities with many recruitment companies. search your job now "
+  },
+  "hero": {
+    "title": "Find & Hire",
+    "sub_title": "In the Field of Real Estate",
+    "description": "Find Jobs, Employment & Career Opportunities. Some of the companies we have helped recruit excellent applicants over the years."
+  },
+
+  "form": {
+    "keyword": {
+      "placeholder": "Keyword (Flat For Front End)"
+    },
+    "country": {
+      "placeholder": "The Country"
+    },
+    "location": {
+      "placeholder": "The Location"
+    },
+    "job_type": {
+      "placeholder": "Job Type"
+    }
+  },
+  "ExploreJobs": {
+    "title": "Explore Jobs",
+    "description": "Explore Jobs in Egypt. Discover open opportunities with many recruitment companies. search your job now ",
+    "link_see_more": "See More Jobs"
+  }
+}

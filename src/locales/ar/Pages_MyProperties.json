@@ -1,0 +1,62 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | {{details}} ",
+    "description": "أمتلك.كوم |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "heading": "العقارات الخاصة بي",
+  "heading_from": "عروض العقارات التي تم استلامها",
+
+  "headingOffers": "عروضي للعقارات",
+  "sub_heading": "كل العقارات الخاصة بي",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage": "قائمة عقاراتك فارغة! ",
+  "PropertyCard": {
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "accepted_zero": "قيد المراجعة",
+    "accepted_one": "قبلت",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms_zero": " {{count}} غرفة نوم",
+    "Bedrooms_one": "غرفة نوم",
+    "Bedrooms_two": "غرفتين نوم",
+    "Bedrooms_few": "{{count}} غرف نوم",
+    "Bedrooms_many": "{{count}} غرفة نوم",
+    "Bedrooms_other": "{{count}} غرفة نوم",
+    "Bathrooms_zero": " {{count}} حمام",
+    "Bathrooms_one": "حمام",
+    "Bathrooms_two": "حمامين",
+    "Bathrooms_few": "{{count}} حمامات",
+    "Bathrooms_many": "{{count}} حمام",
+    "Bathrooms_other": "{{count}} حمام",
+    "Month": "شهر",
+    "share_options": {
+      "Facebook": "فيسبوك",
+      "Twitter": "تويتر",
+      "Vimeo": "فيميو"
+    },
+    "Actions": {
+      "Delete": "حذف"
+    }
+  },
+  "DeletePopUp": {
+    "DeletePopUpTitle": "هل أنت متأكد أنك تريد حذف هذا العقار",
+    "SubmitBtnText": "تأكيد",
+    "CancelBtnText": "إلغاء",
+    "toast_error": "الرجاء تسجيل الدخول أولا!"
+  },
+  "Pagination": {
+    "Previous": "السابق",
+    "Next": "التالي"
+  },
+  "offer": "العرض",
+  "status": "الحالة",
+  "interactions": "معدل التفاعلات",
+  "impressions": "إجمالي مرات ظهور البحث",
+  "totalView": "إجمالي مشاهدات الصفحات",
+  "totalLeads": "إجمالي العملاء المحتملين"
+}

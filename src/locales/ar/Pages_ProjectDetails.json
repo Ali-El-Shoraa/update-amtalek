@@ -1,0 +1,115 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | {{details}} ",
+    "description": "أمتلك.كوم |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "ShareComponent": {
+    "txt": "نشر",
+    "txt_property": "نشر هذا العقار",
+    "txt_article": "نشر هذه المقال",
+    "txt_project": "نشر هذا المشروع",
+    "Facebook": "فيسبوك",
+    "whatsapp": "واتساب",
+    "Twitter": "تويتر",
+    "Google": "جوجل"
+  },
+
+  "sorting_select": {
+    "Featured": "المميزة",
+    "Normal": "العادية",
+    "price_High": "السعر ( الأعلي )",
+    "price_Low": "السعر ( الأقل )",
+    "placeholder": "ترتيب حسب:"
+  },
+
+  "headings": {
+    "description": "وصف المشروع",
+    "QuickSummary": "نبذة مختصرة",
+    "aminities": "مميزات المشروع",
+    "AUTOCAD": "خطط التقسيم",
+    "MASTER": "خطط التقسيم",
+    "PAYMENT": "خطط الدفع",
+    "AUTOCAD_DESCRIPTION": "هذه كلها أبعاد الوحدات",
+    "LOCATION": "موقع المشروع",
+    "VIDEO": "الفيديو",
+    "CONTACT_BROKER": "تواصل مع الوسيط",
+    "CONTACT_DEVELOPER": "تواصل مع المطور",
+    "PROPERTY": "عقارات"
+  },
+  "QuickSummary": {
+    "Address": "الموقع:",
+    "Start_Price": "السعر المبدئي:",
+    "Delivery_Date": "تاريخ التسليم:",
+    "property_size_from": "حجم المشروع من:",
+    "property_size_to": "حجم المشروع إلى:",
+    "bedrooms": "غرف نوم:"
+  },
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "BrokerInfoComponent": {
+    "Phone": "الهاتف:",
+    "Mobile": "الموبايل:",
+    "Email": " البريد الإلكتروني:"
+  },
+  "AsideForm": {
+    "name": {
+      "placeholder": "الاسم"
+    },
+    "phone": {
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "placeholder": "الإيميل"
+    },
+    "message": {
+      "placeholder": "الرسالة..."
+    },
+    "offer": {
+      "placeholder": "العرض"
+    },
+    "offer_type": {
+      "placeholder": "نوع العرض",
+      "err_msg": "نوع العرض مطلوب.",
+      "Options": { "for_rent": "للإيجار", "for_sale": "للبيع" }
+    },
+    "SubmitBtnComponent": {
+      "value_message": "إرسال",
+      "value_offer": "أرسل عرضك",
+      "value": "إرسال"
+    },
+    "toast_error": "برجاء تسجيل الدخول أولا!"
+  },
+  "validations": {
+    "name": {
+      "required": "الاسم مطلوب"
+    },
+    "email": {
+      "required": "البريد الالكتروني مطلوب.",
+      "pattern": " البريد الإلكتروني غير صحيح."
+    },
+    "message": {
+      "required": "الرسالة مطلوبة.",
+      "minLength": "الرجاء إدخال ٣ أحرف على الأقل."
+    },
+    "offer": {
+      "required": "العرض مطلوب.",
+      "pattern": "رقم غير صحيح.",
+      "min": "رقم غير صحيح."
+    },
+    "phone": {
+      "required": "الهاتف مطلوب.",
+      "pattern": "رقم الهاتف غير صحيح.",
+      "maxLength": "رقم الهاتف غير صحيح.",
+      "minLength": "رقم الهاتف غير صحيح."
+    },
+    "ReCAPTCHA": {
+      "required": "انا لست روبوت مطلوب!"
+    }
+  },
+  "call": "اتصل",
+  "email": "ايميل",
+  "whatsapp": "واتساب",
+  "callUs": "اتصل بنا",
+
+  "whatsappMsg": "تصفح هذا المشروع على منصة أمتلك.كوم",
+  "developer": {}
+}

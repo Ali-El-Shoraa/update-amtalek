@@ -1,0 +1,58 @@
+{
+  "title": {
+    "bigForm": "ابحث عن العقارات",
+    "asideForm": "البحث المتقدم"
+  },
+  "keyword": {
+    "placeholder": "الكلمة الرئيسية (مثال شقة للإيجار في القاهرة)"
+  },
+  "region": {
+    "placeholder": "الموقع"
+  },
+  "property_type": {
+    "placeholder": "نوع العقار"
+  },
+  "finishing": {
+    "placeholder": "تشطيب العقار"
+  },
+  "min_bathes": {
+    "placeholder": "عدد الحمامات"
+  },
+  "min_beds": {
+    "placeholder": "عدد السراير"
+  },
+  "purpose": {
+    "placeholder": "الغرض"
+  },
+  "currency": {
+    "placeholder": "العملة"
+  },
+  "min_area": {
+    "placeholder": "اقل مساحة"
+  },
+  "max_area": {
+    "placeholder": "اكبر مساحة"
+  },
+  "min_price": {
+    "placeholder": "اقل سعر"
+  },
+  "max_price": {
+    "placeholder": "اكبر سعر"
+  },
+  "errors": {
+    "number": {
+      "pattern": "من فضلك أدخل رقم صحيح",
+      "min": "الرجاء إدخال رقم أكبر من الصفر",
+      "validate": "لا يمكن أن تكون القيمة الأقل أكبر من القيمة الأكبر"
+    }
+  },
+  "Amentias": {
+    "title_collapsed": {
+      "true": "عرض خيارات بحث أكثر",
+      "false": "عرض خيارات بحث أقل"
+    },
+    "placeholder": "اختر الامتيازات"
+  },
+  "Submit_Button": "بحث",
+  "toast_error": "من فضلك قم بإدخال معلومات صحيحة!"
+}

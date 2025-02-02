@@ -1,0 +1,161 @@
+{
+  "tab": {
+    "title": "Amtalek | Rent - Sell Properties in Egypt",
+    "description": "Amtalek offers complete CRM to manage your team and company tasks. Also you can search for your property through a wide variety of properties for sale or rent in Cairo, Giza and all over Egypt."
+  },
+  "Hero": {
+    "CTA_Text": "VIEW PROPERTIES"
+  },
+  "HeaderTopMenu": {
+    "Favorites": "Favorites",
+    "Submit_Property": "Submit Property",
+    "login": "Login / Register",
+    "profile": "Profile",
+    "my_properties": "My Properties",
+    "go_to_dashboard": "Go to Dashboard",
+    "packages": "Packages"
+  },
+  "LatestProperties": {
+    "filter": {
+      "LATEST": "LATEST",
+      "SALE": "SALE",
+      "RENT": "RENT"
+    },
+    "no_filtered_data": "There are no results",
+    "main_CTA": "VIEW ALL LISTINGS"
+  },
+  "PropertiesCategories": {
+    "title": "Properties Categories"
+  },
+  "MarketSection": {
+    "Market_btn_text": "Social Network",
+    "Market_btn_text_job": "Find Talent Now"
+  },
+  "PopularPlaces": {
+    "main_CTA": "VIEW ALL CITIES"
+  },
+
+  "MostViews": {
+    "main_CTA": "VIEW ALL LISTINGS"
+  },
+  "LatestNews": {
+    "main_CTA": "VIEW ALL NEWS"
+  },
+  "Brokers": {
+    "main_CTA": "VIEW ALL AGENCIES"
+  },
+
+  "FeaturedPropertyCard": {
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number}} M²",
+    "Bedrooms": "{{count, number}} Bedrooms",
+    "Bathrooms": "{{count, number}} Bathrooms",
+    "Month": "M"
+  },
+  "PropertyCard": {
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number}} M²",
+    "Bedrooms": "{{count, number}} Bedrooms",
+    "Bathrooms": "{{count, number}} Bathrooms",
+    "yearly": "Yearly",
+    "monthly": "Monthly",
+    "daily": "Daily",
+    "Month": "Month",
+    "share_options": {
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Vimeo": "Vimeo"
+    },
+    "Actions": { "Delete": "Delete" }
+  },
+  "CityCard": {
+    "total_count_formatted": "{{count, number}} Properties",
+    "rent_count_formatted": "{{count, number}} Properties for rent",
+    "sale_count_formatted": "{{count, number}} Properties for sale"
+  },
+  "MostViewCard": {
+    "Start_From": "Price",
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number}} M²",
+    "Bedrooms": "{{count, number}} Bedrooms",
+    "Bathrooms": "{{count, number}} Bathrooms",
+    "Month": "Month",
+    "share_options": {
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Vimeo": "Vimeo"
+    }
+  },
+  "NewsCard": { "CTA_txt": "Full Article", "by": "By:", "date": "Date:" },
+  "LoginPopUp": {
+    "heading": "Amtalek",
+    "sub_heading": "You must login firstly!",
+    "sub_heading_as_user": "Send as user",
+    "sub_heading_two": "Show property owner data without logging in!",
+    "sub_heading_first_name": "First Name",
+    "sub_heading_company_name": "Company Name",
+    "sub_heading_email": "Email",
+    "sub_heading_phone": "Phone Number",
+    "submit_data_without_login": "Send Data",
+    "login": "Login",
+    "Register": "Register",
+    "heading_Form_project_orintation": "Still need orientation ?",
+    "sub_heading_Form_project_orintation": "Please fill this form"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "Are you sure you want to logout ?",
+    "SubmitBtnText": "Confirm",
+    "CancelBtnText": "Cancel",
+    "toast_error": "Please log in first!"
+  },
+  "ImagesSection": {
+    "Agencies": {
+      "header": "Find an agency",
+      "paragraph": "Explore the diversity of properties from top agencies"
+    },
+    "Search": {
+      "header": "Search ",
+      "paragraph": "Find your home"
+    },
+    "Find": {
+      "header": "Search for properties",
+      "paragraph": "Find your home"
+    }
+  },
+  "AsideForm": {
+    "name": { "placeholder": "Name" },
+    "phone": { "placeholder": "Phone" },
+    "email": { "placeholder": "Email" },
+    "message": { "placeholder": "Message..." },
+    "offer": { "placeholder": "Your Offer" },
+    "offer_type": {
+      "placeholder": "Offer Type",
+      "err_msg": "Offer Type is required",
+      "Options": { "for_rent": "For Rent", "for_sale": "For Sale" }
+    },
+    "SubmitBtnComponent": {
+      "value_message": "Send",
+      "value_offer": "Submit Your Offer",
+      "value": "Submit"
+    },
+    "toast_error": "Please log in first!"
+  }
+}

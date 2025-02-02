@@ -1,0 +1,43 @@
+{
+  "tab": {
+    "title": "Amtalek | {{details}}",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt"
+  },
+  "by": "by",
+  "ShareComponent": {
+    "txt": "Share",
+    "txt_property": "Share this Property",
+    "txt_article": "Share this Article",
+    "txt_project": "Share this Project",
+    "Facebook": "Facebook",
+    "whatsapp": "Whatsapp",
+    "Twitter": "Twitter",
+    "Google": "Google +"
+  },
+  "LATEST_NEWS": "LATEST NEWS",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NewsCard": { "CTA_txt": "Full Article", "by": "By:", "date": "Date:" },
+  "LatestProperties": {
+    "title": "Latest Properties",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "Month"
+  },
+  "PropertiesCategories": {
+    "title": "Properties Categories"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "Featured Properties",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "Month"
+  },
+  "featuredAside": {
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "for_what_for_both": "For Sale and Rent"
+  },
+  "whatsappMsg": "Check this article from Amtalek"
+}

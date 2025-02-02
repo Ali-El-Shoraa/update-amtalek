@@ -1,0 +1,38 @@
+{
+  "tab": {
+    "title": "Amtalek | FAQs",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt"
+  },
+  "heading": "FAQs",
+  "sub_heading": "Frequntly Asked Questions",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "There are no FAQs!",
+  "LatestProperties": {
+    "title": "Latest Properties",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "Month"
+  },
+  "PropertiesCategories": {
+    "title": "Properties Types"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "Featured Properties",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "Month"
+  },
+
+  "PropertyCard": {
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent"
+  },
+  "featuredAside": {
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "for_what_for_both": "For Sale and Rent"
+  }
+}

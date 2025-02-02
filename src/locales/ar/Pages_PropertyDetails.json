@@ -1,0 +1,213 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | تفاصيل العقار ",
+    "description": "أمتلك.كوم |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر"
+  },
+  "property_id_word": "الرقم التعريفي للعقار",
+  "views_word": "مشاهدات",
+  "price_word": "السعر : ",
+  "sold": "تم البيع",
+  "land_area": "م",
+  "land_area_unit": "٢",
+  "Bedrooms": "غرف نوم",
+  "Bathrooms": "الحمامات",
+  "Garages": "الجراجات",
+  "ShareComponent": {
+    "txt": "يشارك",
+    "txt_property": "نشر هذا العقار",
+    "txt_article": "نشر هذه المقال",
+    "txt_project": "نشر هذا المشروع",
+    "Facebook": "فيسبوك",
+    "whatsapp": "واتساب",
+    "Twitter": "تويتر",
+    "Google": "جوجل"
+  },
+
+  "headings": {
+    "description": "وصف العقار",
+    "QuickSummary": "نبذة مختصرة",
+    "aminities": "المميزات",
+    "LOCATION": "موقع العقار",
+    "VIDEO": "الفيديو",
+    "SIMILAR_PROPERTIES": "عقارات مشابهة",
+    "SIMILAR_PROPERTIES_DESCRIPTION": "لدينا عقارات في هذه المناطق، اعرض قائمة بالعقارات المميزة",
+    "COMMENTS": "التعليقات",
+    "LEAVE_COMMENT_word": "اترك تعليقك"
+  },
+  "details": {
+    "title": "تفاصيل العقار",
+    "apartmentNumber": "رقم الخاصية ",
+    "Bathrooms": "الحمامات ",
+    "Beds": "عدد السرائر",
+    "BuildingNumber": "رقم المبنى",
+    "Category": "فئة ",
+    "Finishing": "التشطيب ",
+    "Floor": "أرضية",
+    "GarageNumber": "رقم المرآب",
+    "GarageSize": "حجم المرآب",
+    "Kitchens": "رقم المطابخ ",
+    "Area": "مساحة الأرض  ",
+    "LivingRooms": "غرف المعيشة",
+    "NumberOfFloors": "عدد الطوابق ",
+    "ReceptionPieces": "قطع الاستقبال",
+    "FloorType": "نوع الأرضية  ",
+    "Type": "نوع العقار ",
+    "PropArea": "منطقة العقار "
+  },
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage_comments": "لا توجد تعليقات حتى الآن!",
+  "PropertyCard": {
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "yearly": "سنة",
+    "monthly": "شهر",
+    "daily": "يوم",
+    "area_formatted": "{{area, number}} م²",
+    "Bedrooms_zero": " {{count}} غرفة نوم",
+    "Bedrooms_one": "غرفة نوم",
+    "Bedrooms_two": "غرفتين نوم",
+    "Bedrooms_few": "{{count}} غرف نوم",
+    "Bedrooms_many": "{{count}} غرفة نوم",
+    "Bedrooms_other": "{{count}} غرفة نوم",
+    "Bathrooms_zero": "{{count}} حمام",
+    "Bathrooms_one": "حمام",
+    "Bathrooms_two": "حمامين",
+    "Bathrooms_few": "{{count}} حمامات",
+    "Bathrooms_many": "{{count}} حمام",
+    "Bathrooms_other": "{{count}} حمام",
+    "Month": "شهر",
+    "share_options": {
+      "Facebook": "فيسبوك",
+      "Twitter": "تويتر",
+      "Vimeo": "فيميو"
+    }
+  },
+  "aside": {
+    "PROPERTY_OWNER": "مالك العقار",
+    "MAKE_YOUR_OFFER": "قدم عرضك",
+    "Phone": "الهاتف:",
+    "Mobile": "الموبايل:",
+    "Email": "الإيميل:"
+  },
+  "LatestProperties": {
+    "title": "أحدث العقارات",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "شهر"
+  },
+  "PropertiesCategories": {
+    "title": "فئات العقارات"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "عقارات مميزة",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} او {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "Month": "شهر"
+  },
+  "AsideForm": {
+    "name": {
+      "placeholder": "الاسم"
+    },
+    "phone": {
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "placeholder": "البريد الإلكتروني"
+    },
+    "message": {
+      "placeholder": "الرسالة..."
+    },
+    "offer": {
+      "placeholder": "العرض"
+    },
+    "offer_type": {
+      "placeholder": "نوع العرض",
+      "err_msg": "نوع العرض مطلوب.",
+      "Options": { "for_rent": "للإيجار", "for_sale": "للبيع" }
+    },
+    "SubmitBtnComponent": {
+      "value_message": "إرسال",
+      "value_offer": "أرسل عرضك",
+      "value": "إرسال"
+    },
+    "toast_error": "برجاء تسجيل الدخول أولا!"
+  },
+  "SendMessageForm": {
+    "name": {
+      "placeholder": "الاسم"
+    },
+    "phone": {
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "placeholder": "البريد الإلكتروني"
+    },
+    "message": {
+      "placeholder": "الرسالة..."
+    },
+    "RatingComponent": { "placeholder": "اترك تقييمك :" },
+
+    "SubmitBtnComponent": {
+      "value": "إرسال"
+    },
+    "toast_error": "برجاء تسجيل الدخول أولا!"
+  },
+  "validations": {
+    "name": {
+      "required": "الاسم مطلوب"
+    },
+    "email": {
+      "required": "البريد الالكتروني مطلوب.",
+      "pattern": " البريد الإلكتروني غير صحيح."
+    },
+    "message": {
+      "required": "الرسالة مطلوبة.",
+      "minLength": "الرجاء إدخال ٣ أحرف على الأقل."
+    },
+    "offer": {
+      "required": "العرض مطلوب.",
+      "pattern": "رقم غير صحيح.",
+      "min": "رقم غير صحيح."
+    },
+    "phone": {
+      "required": "الهاتف مطلوب.",
+      "pattern": "رقم الهاتف غير صحيح.",
+      "maxLength": "رقم الهاتف غير صحيح.",
+      "minLength": "رقم الهاتف غير صحيح."
+    },
+    "ReCAPTCHA": {
+      "required": "انا لست روبوت مطلوب!"
+    }
+  },
+  "for_what": {
+    "for_sale": "للبيع",
+    "for_rent": "للإيجار",
+    "for_both": "للبيع و للإيجار"
+  },
+  "featuredAside": {
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "for_what_for_both": "للبيع و للإيجار"
+  },
+  "send_message": "ارسل رسالة لمالك العقار",
+  "call": "اتصل",
+  "email": "ايميل",
+  "whatsapp": "واتساب",
+  "save": "حفظ في القائمة",
+  "created": "تاريخ نشر العقار",
+  "whatsappMsg": "تصفح هذا العقار من منصة أمتلك.كوم",
+  "roi": "العائد من الأستثمار",
+  "callUs": "اتصل بنا",
+  "phoneNumber": "رقم الهاتف",
+  "brokerName": "اسم الوكيل",
+  "message": "مرحبا انا وجدت هذا العقار و اريد الاستفسار عنه {{link}}"
+}

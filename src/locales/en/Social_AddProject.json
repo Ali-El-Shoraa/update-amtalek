@@ -1,0 +1,14 @@
+{
+  "title": "Add Project Details",
+  "projectName": "Project Name : ",
+  "projectDescription": "Project Description : ",
+  "country": "Country  ",
+  "city": "City  ",
+  "region": "Region  ",
+  "videoLink": "Video Link : ",
+  "location": "Location : ",
+  "totalUnits": "Total Units : ",
+  "bedrooms": "Total Bedrooms : ",
+  "pricefrom": "Price From : ",
+  "status": "Status"
+}

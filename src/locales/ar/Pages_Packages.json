@@ -1,0 +1,67 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | الباقات ",
+    "description": "أمتلك.كوم |  أمتلك تقدم لك CRM كامل لإدارة فريقك ومهام شركتك, إبحث عن عقارك خلال تنوع كبير من العقارات سواء للبيع، للإيجار في القاهرة، الجيزة وجميع أنحاء مصر",
+    "payment": "الدفع"
+  },
+  "heading": "جدول تسعير أمتلك.كوم",
+  "sub_heading": "أسعارنا",
+  "sub_heading_agents": "أسعارنا للشركات",
+  "sub_heading_users": "أسعارنا للمستخدمين",
+  "pricing_options": {
+    "monthly": {
+      "title": "شهريا"
+    },
+    "Yearly": {
+      "title": "سنويا"
+    }
+  },
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "PackageCard": {
+    "price_prefix": "ج",
+    "price_suffix_month": "شهر",
+    "price_suffix_year": "عام",
+    "normal_listings": "إضافة عقار عادي",
+    "featured_listings": "إضافة عقار مميز",
+    "job_posts": "الأعلان الوظيفي",
+    "download_search_cvs": "تحميل سيرة ذاتية",
+    "projects": "المشاريع",
+    "projects_developer": "للمطورين فقط",
+    "taxes": "ضريبة",
+    "total_price": "السعر الكلي",
+    "crm_agents": "وكلاء إدارة علاقات العملاء",
+    "supervisors": "المشرفين",
+    "hr_module_yes": "ادارة نظام الموارد البشرية ",
+    "hr_module_no": "ادارة نظام الموارد البشرية ",
+    "accounting_module_yes": "نظام المحاسبة",
+    "accounting_module_no": "نظام المحاسبة",
+    "messages": "رسائل",
+    "lead": "النقود الإلكترونية",
+    "buy": "شراء",
+    "leads": "ادارة العملاء"
+  },
+  "your_order": "طلبك",
+  "HeaderDetails": "تفاصيل الطلب",
+  "BillingDetails": "تفاصيل الفاتورة",
+  "first_name": "الأسم الأول",
+  "last_name": "الأسم الأخير",
+  "phone": "الهاتف",
+  "email": "البريد الألكتروني",
+  "country": "الدولة",
+  "city": "المدينة",
+  "Choose": "اختر",
+  "subscribed": "لديك بالفعل باقة مشتركة",
+  "loginFirst": "الرجاء تسجيل الدخول اولا",
+  "cash": "الكاش",
+  "visa": "فيزا",
+  "duration": "المدة",
+  "confirm": "تأكيد الشراء",
+  "price": "السعر",
+  "name": "الأسم",
+  "package_details": "تفاصيل الباقة",
+  "payment": "طريقة الدفع",
+  "pay_with": "الدفع باستخدام",
+  "cash_in_office": "الدفع نقدًا",
+  "pay_with_credit": "الدفع ببطاقة الائتمان (قريبًا)",
+  "pay_with_apply": "الدفع عبر Apply Pay (قريبًا)"
+}

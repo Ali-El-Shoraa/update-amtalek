@@ -1,0 +1,145 @@
+{
+  "Navbar": {
+    "menu_items": {
+      "Home": "Home",
+      "Find_Properties": {
+        "title": "Find Properties",
+        "For_Sale": {
+          "title": "For Sale",
+          "Residential": "Residential For Sale",
+          "Commercial": "Commercial For Sale"
+        },
+        "For_Rent": {
+          "title": "For Rent",
+          "Residential": "Residential For Rent",
+          "Commercial": "Commercial For Rent"
+        }
+      },
+
+      "Careers": {
+        "browse_jobs": "Browse Jobs",
+        "for_employers": "For Employers"
+      },
+      "Brokers": "Our Agencies",
+      "Projects": "Projects",
+      "Cities": {
+        "title": "Cities",
+        "drop_down": { "title": "MOST POPULAR PLACES" }
+      },
+      "Contact_Us": "Contact Us",
+      "Job_Career": "Careers",
+      "CityCard": {
+        "total_count_formatted": "{{count, number}} Properties",
+        "rent_count_formatted": "{{count, number}} Properties for rent",
+        "sale_count_formatted": "{{count, number}} Properties for sale"
+      }
+    },
+    "social": {
+      "title": "Social Network",
+      "title_job": "Looking for a Job?",
+      "employer": "Employer Login"
+    },
+    "Login_drop_down_menu": {
+      "heading": "Login",
+      "sub_heading": "Login or Create a New Account",
+      "Login_btn_txt": "Login",
+      "Register_btn_txt": "Register",
+      "jobseeker": "Jobseeker Login"
+    }
+  },
+  "New": "New",
+  "NavDropDownMenu": {
+    "menu_items": {
+      "my_profile": {
+        "btn_txt": "My Profile"
+      },
+      "my_dashboard": {
+        "btn_txt": "My Dashboard"
+      },
+      "Log_out": { "btn_txt": "Log out" },
+      "welcome": "Welcome <strong>{{name}}</strong>"
+    }
+  },
+
+  "Footer": {
+    "second_column": {
+      "title": "QUICK LINKS",
+      "menu_items": {
+        "Home": { "title": "Home", "link": "" },
+        "News": { "title": "News", "link": "/news" },
+        "FAQs": { "title": "FAQs", "link": "/faqs" },
+        "Contact": { "title": "Contact", "link": "/contact" },
+        "login": { "title": "Register/Login", "link": "/login" },
+        "About": { "title": "About", "link": "/about-us" },
+        "Cities": { "title": "Cities", "link": "/cities" },
+        "Careers": { "title": "Careers", "link": "/careers" },
+        "Projects": { "title": "Projects", "link": "/projects" },
+        "Submit_Property": {
+          "title": "Submit Property",
+          "link": "submit-property",
+          "dashboardTitle": "Go to Dashboard",
+          "dashboardLink": "{{dashboardLink}}",
+          "no_permission_link": "packages/{{type}}"
+        },
+        "Terms_Conditions": {
+          "title": "Terms & Conditions",
+          "link": "/terms-conditions"
+        },
+        "Privacy": {
+          "title": "Privacy",
+          "link": "/privacy"
+        },
+        "Amtalek_Presentation": {
+          "title": "Amtalek Presentation",
+          "link": "../../pdf/presentation/amtalek-presentation-en.pdf"
+        }
+      }
+    },
+    "third_column": {
+      "title": "Latest News"
+    },
+    "fourth_column": {
+      "title": "Subscribe",
+      "email": {
+        "placeholder": "Enter your email",
+        "required_msg": "Email is required.",
+        "pattern_msg": "Invalid Email Address."
+      }
+    }
+  },
+  "CityCard": {
+    "total_count_formatted": "{{count, number}} Properties",
+    "rent_count_formatted": "{{count, number}} Properties for rent",
+    "sale_count_formatted": "{{count, number}} Properties for sale"
+  },
+  "Layout_header": {
+    "txt": "AMTALEK will help you find your property."
+  },
+  "HeaderTopMenu": {
+    "Favorites": "Favorites",
+    "Submit_Property": "Submit Property",
+    "login": "Login / Register",
+    "profile": "Profile",
+    "my_properties": "My Properties",
+    "go_to_dashboard": "Go to Dashboard",
+    "packages": "Packages"
+  },
+  "LoginPopUp": {
+    "heading": "Amtalek",
+    "sub_heading": "You must login firstly!",
+    "login": "Login",
+    "Register": "Register"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "Are you sure you want to logout ?",
+    "SubmitBtnText": "Confirm",
+    "CancelBtnText": "Cancel",
+    "toast_error": "Please log in first!"
+  },
+  "SelectCountry": "Select Country",
+  "evaluate": "Please Rate us",
+  "evaluateButton": "Send",
+  "evaluatePlaceholder": "Please help by explaining the reason for the rating",
+  "possible": "Very possible",
+  "impossible": "Totally unlikely"
+}

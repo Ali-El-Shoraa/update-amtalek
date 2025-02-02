@@ -1,0 +1,33 @@
+{
+  "tab": {
+    "title": "أمتلك.كوم | خريطة موقع أمتلك.كوم",
+    "description": "خريطة موقع أمتلك.كوم في مصر، تتضمن العقارات والمشاريع والوظائف والأخبار"
+  },
+  "browse": {
+    "country": "تصفح الوظائف الجديدة في مصر",
+    "country_link": "Browse New Jobs in Egypt",
+    "job_in": "وظائف في "
+  },
+
+  "property": {
+    "title": "عقارات في {{country}}",
+    "property_in": "عقارات {{for_what}} في {{city_name}}",
+    "property_in_sale": "عقارات للبيع في {{city_name}}",
+    "property_in_sale_link": "عقارات للبيع في {{city_name}}",
+    "property_in_rent": "عقارات للايجار في {{city_name}} ",
+    "property_in_rent_link": "عقارات للايجار في {{city_name}}",
+    "for_sale": "للبيع",
+    "for_rent": "للأيجار",
+    "for_both": "للبيع او للأيجار"
+  },
+
+  "news": "الأخبار في مصر",
+
+  "project": {
+    "title": "مشاريع في {{country}}",
+    "project_in": "مشاريع في {{city_name}} ",
+    "for_sale": "للبيع",
+    "for_rent": "للأيجار",
+    "for_both": "للبيع او للأيجار"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "menu": {
+    "profile": "حسابي",
+    "my_offers": "عروضي",
+    "my_offers_received": "عروض تم استلامها",
+    "my_properties": "عقاراتي",
+    "submit_property": "اضافة عقار",
+    "favorites": "المفضلة",
+    "packages": "الباقة الحالية",
+    "packageInfo": "معلومات عن الباقة",
+    "invoices": "الفواتير",
+    "toPackage": "الباقات",
+    "messages": "الرسائل",
+
+    "log_out": "تسجيل خروج"
+  },
+  "Layout_header": {
+    "txt": "أمتلك.كوم سوف تساعدك في العثور على العقارات الخاصة بك."
+  },
+  "HeaderTopMenu": {
+    "Favorites": "المفضلة",
+    "Submit_Property": "اضافة عقار",
+    "login": "تسجيل الدخول / إنشاء حساب",
+    "my_properties": "عقاراتي",
+    "profile": "حسابي",
+    "go_to_dashboard": "الذهاب إلى لوحة القيادة"
+  },
+  "LoginPopUp": {
+    "heading": "أمتلك.كوم",
+    "sub_heading": "يجب عليك تسجيل الدخول أولا!",
+    "login": "تسجيل الدخول",
+    "Register": "إنشاء حساب"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "هل أنت متأكد أنك تريد تسجيل الخروج ؟",
+    "SubmitBtnText": "تأكيد",
+    "CancelBtnText": "إلغاء",
+    "toast_error": "برجاء تسجيل الدخول أولا!"
+  },
+  "expiration": "الباقة سوف تنتهي في : {{date}}"
+}

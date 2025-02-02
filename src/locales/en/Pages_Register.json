@@ -1,0 +1,172 @@
+{
+  "tab": {
+    "title": "Amtalek | Register",
+    "description": "AMTALEK | Rent - Sell Properties in Egypt"
+  },
+  "heading": "Register",
+  "step_0": {
+    "user_type": {
+      "label": "I am",
+      "placeholder": "Individual / Company",
+      "validation_required": "This filed is required.",
+      "selections": { "individual": "Individual", "company": "Company" }
+    },
+    "company_name": {
+      "label": "Company Name",
+      "placeholder": "Company Name"
+    },
+    "company_logo": {
+      "label": "Company Logo",
+      "btnText": "Upload",
+      "hint": "Logo size must be 200 X 200px"
+    },
+
+    "company_type": {
+      "label": "Company Type",
+      "placeholder": "Developer / Broker",
+      "validation_required": "This field is required.",
+      "selections": {
+        "broker": "Broker",
+        "developer": "Developer"
+      }
+    }
+  },
+  "step_1": {
+    "first_name": {
+      "label": "First Name",
+      "placeholder": "First Name"
+    },
+    "last_name": {
+      "label": "Last Name",
+      "placeholder": "Last Name"
+    },
+    "phone": {
+      "label": "Phone",
+      "placeholder": "Phone"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Email"
+    }
+  },
+  "step_2": {
+    "password": {
+      "label": "Password",
+      "placeholder": "Password"
+    },
+    "confirm_password": {
+      "label": "Confirm Password",
+      "placeholder": "Confirm Password"
+    },
+    "birthday": {
+      "label": "Birthday",
+      "placeholder": "Birthday",
+      "validation_required": "Birthday is required.",
+      "validation_age": "You must be greater than 18 years old."
+    },
+    "gender": {
+      "label": "Gender",
+      "placeholder": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "validation_required": " Gender is required."
+    },
+    "Country": {
+      "label": "Country",
+      "placeholder": "Country",
+      "validation_required": "Country is required.",
+      "NotFoundMessage": "No countries found"
+    }
+  },
+  "step_3": {
+    "City": {
+      "label": "City",
+      "placeholder": "City",
+      "validation_required": "Country is required.",
+      "NotFoundMessage": "No cities found"
+    },
+    "Region": {
+      "label": "Region",
+      "placeholder": "Region",
+      "validation_required": "Region is required.",
+      "NotFoundMessage": "No Regions found"
+    }
+  },
+  "step_4": {
+    "terms": {
+      "txt": "I Accept The",
+      "CTA": "Terms & Conditions",
+      "validation_required": "You must accept the terms."
+    },
+    "user_img": {
+      "label": "Profile Image",
+      "btnText": "Upload",
+      "hint": "Image size must be 200 X 200px"
+    },
+    "SubmitBtnComponent": { "value": "Register" }
+  },
+
+  "form__bottom": {
+    "providers": {
+      "txt": " Or join With ",
+      "Google": "Google",
+      "have_an_account": "Already have an account?",
+      "login": "Login",
+      "Have_a_code": "Have a code?"
+    },
+    "navigation": { "prev_btn": "Previous Step", "next_btn": "Next Step" }
+  },
+  "VerificationCodeForm": {
+    "heading_for_verify_account": "Add the code that sent to you to verify the account",
+    "code": {
+      "label": "Verification Code",
+      "placeholder": "Verification Code"
+    },
+    "SubmitBtnComponent": { "value": "Send" }
+  },
+  "validations": {
+    "company_name": {
+      "required": "Company name is required"
+    },
+    "company_logo": {
+      "required": "Company logo is required",
+      "validate": "Max image size is 5MB."
+    },
+    "user_img": {
+      "required": "User image is required",
+      "validate": "Max image size is 5MB."
+    },
+    "first_name": {
+      "required": "First name is required"
+    },
+    "last_name": {
+      "required": "Last name is required"
+    },
+    "phone": {
+      "required": "Phone is required.",
+      "pattern": "Invalid Phone number.",
+      "maxLength": "Invalid Phone number.",
+      "minLength": "Invalid Phone number."
+    },
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "password": {
+      "required": "Password is required.",
+      "minLength": "Password Min length is 8 char."
+    },
+    "confirm_password": {
+      "required": "Confirm Password is required.",
+      "minLength": "Confirm Password Min length is 8 char.",
+      "validate": "Passwords don't match."
+    },
+    "code": {
+      "required": "Code is required.",
+      "pattern": "Invalid code."
+    },
+    "ReCAPTCHA": {
+      "required": "ReCAPTCHA is required."
+    }
+  }
+}

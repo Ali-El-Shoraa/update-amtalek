@@ -1,0 +1,26 @@
+{
+  "friends": "Friends",
+  "followers": "Followers",
+  "home": "Home",
+  "groups": "Groups",
+  "developer": "Developers",
+  "brokers": "Agencies",
+  "messages": "Messages",
+  "notifications": "Notifications",
+  "settings": "Settings",
+  "create": "Create new group",
+  "ads": "Advertisement",
+  "requests": "Friends Request",
+  "seeall": "See All",
+  "mutual": "Mutual Friends",
+  "confirm": "Confirm",
+  "delete": "Delete",
+  "welcome": "Welcome",
+  "login": "Login",
+  "signup": "Sign Up",
+  "news": {
+    "title": "The latest Top News",
+    "seeAll": "See All",
+    "readMore": "Read More"
+  }
+}
