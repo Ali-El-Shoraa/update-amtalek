@@ -125,7 +125,7 @@ export default function PropertyProject({ data }: any) {
 
       {/* Grid Section */}
       <div className="grid grid-cols-3 clg:grid-cols-2 ss:grid-cols-1 gap-10">
-        {currentItems.map((card, ind) => (
+        {currentItems?.map((card, ind) => (
           <PropertyCard
             key={card.id}
             property={card}

@@ -64,7 +64,7 @@ export default function LoginForm({ loginDispatch }: any) {
     try {
       await setAuthToken(data?.data?.token);
       await setUserDataAction(JSON.stringify(data?.data));
-      router.push("/");
+      data?.data?.token && window.location.replace("/");
     } catch (error: any) {
       toast.error(error);
     }
