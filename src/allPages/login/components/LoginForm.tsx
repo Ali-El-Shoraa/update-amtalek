@@ -87,7 +87,7 @@ export default function LoginForm({ loginDispatch }: any) {
       handleSetToken(data);
       dispatchRedux(setShowLoginPopUp(false));
       setSubmitted(false);
-      data && router.push("/");
+      // data && router.push("/");
     },
     false,
     (error) => {
