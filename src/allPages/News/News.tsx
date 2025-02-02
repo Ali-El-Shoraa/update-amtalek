@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import Heading from "@/components/Heading";
-import { ErrorMessage, NoItemsMessage } from "@/SubComponents";
-import Loader from "@/components/loader/Loader";
-import NewsCard from "@/CardsComponents/NewsCard";
 import ReactPaginate from "react-paginate";
-import getData from "@/api/getData";
+import getData from "@/lib/api/getData";
+import Loader from "@/components/Loader";
+import { ErrorMessage, NoItemsMessage } from "@/components/SubComponents";
+import NewsCard from "@/components/NewsCard";
 
 export default function News() {
   const { t, i18n } = useTranslation("Pages_News");

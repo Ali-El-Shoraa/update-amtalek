@@ -1,7 +1,7 @@
 "use client";
-import ComboBoxSelect from "@/allPages/SaerchFour/ComboBoxSelect";
-import PropertyCard from "@/CardsComponents/PropertyCard";
 import Heading from "@/components/Heading";
+import PropertyCard from "@/components/PropertyCard";
+import ComboBoxSelect from "@/components/SaerchFour/ComboBoxSelect";
 import {
   setShowFormProjectOrientation,
   setShowSearchPropertyProject,
