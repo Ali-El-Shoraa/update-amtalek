@@ -1,11 +1,9 @@
 "use client";
 
-import { faBath, faBed, faChevronRight, faMaximize } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { useId } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { lang } from "@/Store/Features/MiscellaneousSlice";
 import Image from "next/image";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,11 +11,7 @@ import { Navigation, Thumbs, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
-import Share from "@/SubComponents/Share";
-import { setShowLoginPopUp } from "@/Store/Features/AuthenticationSlice";
-import { CiLocationOn } from "react-icons/ci";
 import { useTranslation } from "react-i18next";
-import ItemSlider from "./ItemSlider";
 
 function PropertySlider({ data, style, fullWidth }: any) {
   const uniqueID = useId();
@@ -41,7 +35,10 @@ function PropertySlider({ data, style, fullWidth }: any) {
             onClick={() => mainSwiper.slidePrev()}
             className="prev-slider-btn absolute !bg-custome-white left-2 top-1/2 -translate-y-1/2 bg-transparent text-custome-blue border-2 hover:scale-105 border-custome-blue flex justify-center items-center rounded transition-all duration-300 ease-in-out active:scale-90 h-9 w-9 min-h-9 min-w-9 cursor-pointer z-10 asm:hidden"
           >
-            <FontAwesomeIcon className="rotate-180 text-lg font-bold" icon={faChevronRight} />
+            <FontAwesomeIcon
+              className="rotate-180 text-lg font-bold"
+              icon={faChevronRight}
+            />
           </button>
         )}
         <Swiper
@@ -81,7 +78,10 @@ function PropertySlider({ data, style, fullWidth }: any) {
             onClick={() => mainSwiper.slideNext()}
             className="next-slider-btn absolute right-2 top-1/2 -translate-y-1/2 bg-custome-blue text-custome-venice border-2 border-custome-blue hover:scale-105 flex justify-center items-center rounded transition-all duration-300 ease-in-out active:scale-90 h-9 w-9 min-h-9 min-w-9 cursor-pointer z-10 asm:hidden"
           >
-            <FontAwesomeIcon className="text-lg font-bold" icon={faChevronRight} />
+            <FontAwesomeIcon
+              className="text-lg font-bold"
+              icon={faChevronRight}
+            />
           </button>
         )}
       </div>

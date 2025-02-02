@@ -1,5 +1,5 @@
-"use client"
-import HeaderSection from "@/components/headerSection/HeaderSection";
+"use client";
+
 import Heading from "@/components/Heading";
 
 export default function PropertyDescription({ data, locale, t }: any) {
@@ -13,7 +13,10 @@ export default function PropertyDescription({ data, locale, t }: any) {
           }),
         })}
       </Heading>
-      <div dangerouslySetInnerHTML={{ __html: data?.description }} className="break-words"></div>
+      <div
+        dangerouslySetInnerHTML={{ __html: data?.description }}
+        className="break-words"
+      ></div>
     </div>
   );
 }

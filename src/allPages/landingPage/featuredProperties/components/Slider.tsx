@@ -7,19 +7,14 @@ import { Navigation, Autoplay } from "swiper/modules";
 import Image from "next/image";
 import Link from "next/link";
 import { FaCamera } from "react-icons/fa";
-// import HeaderSection from "@/components/headerSection/HeaderSection";
 import { useTranslation } from "react-i18next";
-// import { FaMaximize } from "react-icons/fa6";
 import { useDispatch, useSelector } from "react-redux";
 import {
   setShowLoginPopUp,
-  // showLoginPopUp,
   userData,
   userProfileDataOut,
 } from "@/Store/Features/AuthenticationSlice";
 import { usePostData } from "@/Hooks/usePostData";
-// import FavoriteButton from "@/components/FavoriteButton";
-// import { useEffect, useState } from "react";
 import LangLink from "@/components/LangLink";
 import { faBath, faBed, faMaximize } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -51,13 +46,6 @@ export default memo(function Slider({ data, locale, countrie }: any) {
   return (
     <>
       <div className="flex items-center justify-between">
-        {/* <HeaderSection
-          title={data?.title}
-          subTitle={data?.sub_title}
-          locale={locale}
-          countrie={countrie}
-        /> */}
-
         <div
           className={`flex justify-end gap-5 items-center ltr:flex-row-reverse absolute top-0 ltr:right-0 rtl:left-0 asm:relative asm:mb-5 ${
             data?.cards?.[0]?.length <= 2 ? "hidden" : "block"
