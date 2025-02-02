@@ -2,6 +2,7 @@
 
 import { cookies } from "next/headers";
 import getData from "../api/getData";
+import { getAuthToken } from "@/lib/actions/auth-actions";
 
 export async function setUserDataAction(userData: string) {
   (await cookies()).set("userDataAction", userData, {
@@ -22,14 +23,15 @@ export async function getUserDataAction() {
 
 export async function getUserProfileDataAction() {
   const locale = (await cookies()).get("NEXT_LOCALE")?.value || "en";
-
+  const token = (await cookies()).get("auth_token")?.value;
   const userData = (await cookies()).get("userDataAction")?.value;
   if (!userData) return;
   const parsedUserData = JSON.parse(userData);
   //   return parsedUserData;
   const response = await getData(
     `web/${process.env.NEXT_PUBLIC_USER_PROFILE_DATA}/${parsedUserData?.data?.actor_type}/${parsedUserData?.data?.id}`,
-    locale
+    locale,
+    token
   );
   return response?.data;
 }
