@@ -3,8 +3,9 @@ import Link from "next/link";
 import arrow from "../../../app/images/arrow.svg";
 import { TbSocial } from "react-icons/tb";
 import initTranslations from "@/app/i18n";
+import { memo } from "react";
 
-export default async function MarketSection({ data }: any) {
+export default memo(async function MarketSection({ data }: any) {
   const { t } = await initTranslations("Pages_LandingPage");
   return (
     <section>
@@ -55,4 +56,4 @@ export default async function MarketSection({ data }: any) {
       </div>
     </section>
   );
-}
+});

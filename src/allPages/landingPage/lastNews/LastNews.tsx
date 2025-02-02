@@ -5,8 +5,9 @@ import { FaAnglesRight } from "react-icons/fa6";
 import { useTranslation } from "react-i18next";
 import HeaderSection from "@/components/HeaderSection";
 import ButtonSections from "@/components/ButtonSections";
+import { memo } from "react";
 
-export default function LastNews({ data, locale, countrie }: any) {
+export default memo(function LastNews({ data, locale, countrie }: any) {
   // const { t } = await initTranslations(locale, ["Pages_LandingPage"]);
   const { t } = useTranslation("Pages_LandingPage");
   return (
@@ -88,4 +89,4 @@ export default function LastNews({ data, locale, countrie }: any) {
       />
     </section>
   );
-}
+});

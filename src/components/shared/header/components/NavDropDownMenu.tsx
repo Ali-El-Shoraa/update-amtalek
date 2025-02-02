@@ -13,11 +13,11 @@ import { IoIosLogOut } from "react-icons/io";
 import type { MenuProps } from "antd";
 import Image from "next/image";
 import { Dropdown } from "antd";
-import React from "react";
+import React, { memo } from "react";
 import Link from "next/link";
 import { userProfileDataOut } from "@/Store/Features/AuthenticationSlice";
 
-export default function NavDropDownMenu({ ForRealEstate, user }: any) {
+export default memo(function NavDropDownMenu({ ForRealEstate, user }: any) {
   const userProfile = useSelector(userProfileDataOut);
 
   const dispatchRedux = useDispatch();
@@ -223,4 +223,4 @@ export default function NavDropDownMenu({ ForRealEstate, user }: any) {
       </Dropdown>
     </div>
   );
-}
+});

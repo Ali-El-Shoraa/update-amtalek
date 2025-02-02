@@ -5,12 +5,13 @@ import LatestPropertiesAllCards from "./components/LatestPropertiesAllCards";
 // import initTranslations from "@/app/i18n";
 import { useTranslation } from "react-i18next";
 import ButtonSections from "@/components/ButtonSections";
+import { memo } from "react";
 // import i18next from "i18next";
 // import { useTranslation } from "react-i18next";
 
 // const i18nNamespaces = ["Pages_LandingPage"];
 
-export default function LatestProperties({ data, locale, countrie }: any) {
+export default memo(function LatestProperties({ data, locale, countrie }: any) {
   // const { t } = await initTranslations(locale, i18nNamespaces);
 
   const { t } = useTranslation("Pages_LandingPage");
@@ -35,4 +36,4 @@ export default function LatestProperties({ data, locale, countrie }: any) {
       </div>
     </section>
   );
-}
+});

@@ -3,9 +3,7 @@ import Heading from "@/components/Heading";
 import LangLink from "@/components/LangLink";
 import SubHeading from "@/components/SubHeading";
 import { memo } from "react";
-
 import { useTranslation } from "react-i18next";
-import { useSelector } from "react-redux";
 import CityCard from "./CityCard";
 
 const PopularPlaces = memo(function PopularPlaces({ data, countrie }: any) {

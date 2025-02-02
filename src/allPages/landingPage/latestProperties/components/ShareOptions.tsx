@@ -4,6 +4,7 @@ import { FaFacebook, FaXTwitter, FaShareNodes } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
+import { memo } from "react";
 
 function ShareOptions({ card }: any) {
   const { i18n } = useTranslation();
@@ -55,4 +56,4 @@ function ShareOptions({ card }: any) {
   );
 }
 
-export default ShareOptions;
+export default memo(ShareOptions);

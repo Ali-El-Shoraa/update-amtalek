@@ -7,39 +7,47 @@ import LatestNews from "./lastNews/components/LatestNews";
 import LatestProperties from "./latestProperties/components/LatestProperties";
 import LatestProjects from "./latestProjects/LatestProjects";
 import { getHomePageApiStatic } from "@/lib/api/api.home.page";
+import Loader from "@/components/Loader";
+import { memo } from "react";
 
-export default async function LandingPage({ locale }: any) {
-  const {
-    allSliders,
-    allMarketSection,
-    allLatestProps,
-    allFeatured,
-    // allBroker,
-    allDataImage,
-    allAds,
-    AllCountries,
-    // allCitiesMost,
-    allHomeNews,
-    // allDescripeUs,
-    // allMostView,
-    allPRoject,
-  } = await getHomePageApiStatic();
-  return (
-    <>
-      {/* <Suspense fallback={<Loading />}> */}
-      <Hero data={allSliders || []} />
-      <ImagesSection data={allDataImage || []} locale={locale} />
-      {/* <ADSHome data={allAds || []} /> */}
-      <FeaturedProperties data={allFeatured || []} countrie={AllCountries} />
+export default memo(async function LandingPage({ locale }: any) {
+  try {
+    const {
+      allSliders,
+      allMarketSection,
+      allLatestProps,
+      allFeatured,
+      // allBroker,
+      allDataImage,
+      allAds,
+      AllCountries,
+      // allCitiesMost,
+      allHomeNews,
+      // allDescripeUs,
+      // allMostView,
+      allPRoject,
+    } = await getHomePageApiStatic();
+    return !allSliders ? (
+      <Loader />
+    ) : (
+      <>
+        {/* <Suspense fallback={<Loading />}> */}
+        <Hero data={allSliders || []} />
+        <ImagesSection data={allDataImage || []} locale={locale} />
+        {/* <ADSHome data={allAds || []} /> */}
+        <FeaturedProperties data={allFeatured || []} countrie={AllCountries} />
 
-      <LatestProjects allPRoject={allPRoject} />
+        <LatestProjects allPRoject={allPRoject} />
 
-      <LatestProperties data={allLatestProps || []} countrie={AllCountries} />
-      <MarketSection data={allMarketSection?.[0] || null} locale={locale} />
+        <LatestProperties data={allLatestProps || []} countrie={AllCountries} />
+        <MarketSection data={allMarketSection?.[0] || null} locale={locale} />
 
-      <LatestNews data={allHomeNews || []} locale={locale} />
+        <LatestNews data={allHomeNews || []} locale={locale} />
 
-      {/* </Suspense> */}
-    </>
-  );
-}
+        {/* </Suspense> */}
+      </>
+    );
+  } catch (e: any) {
+    throw new Error("somthing is wrong please try again", e.error);
+  }
+});

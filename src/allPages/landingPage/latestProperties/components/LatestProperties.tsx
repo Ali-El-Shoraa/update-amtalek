@@ -1,7 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 import { memo, useMemo, useState } from "react";
-// import bottomBuilding from "@/assets/images/bg-gallery.png";
+
 import { useDispatch, useSelector } from "react-redux";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
@@ -10,8 +9,6 @@ import {
   userData,
 } from "@/Store/Features/AuthenticationSlice";
 import Heading from "@/components/Heading";
-// import SubHeading from "@/MainComponents/SubHeading";
-// import PropertyCard from "@/CardsComponents/PropertyCard";
 import LangLink from "@/components/LangLink";
 import SubHeading from "@/components/SubHeading";
 import PropertyCard from "@/components/PropertyCard";

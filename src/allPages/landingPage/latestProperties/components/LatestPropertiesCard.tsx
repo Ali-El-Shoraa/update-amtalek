@@ -8,8 +8,9 @@ import { FaCalendarAlt } from "react-icons/fa";
 import { FaMaximize } from "react-icons/fa6";
 import { useTranslation } from "react-i18next";
 import FavoriteButton from "@/components/FavoriteButton";
+import { memo } from "react";
 
-export default function LatestPropertiesCard({ card, locale, data }: any) {
+export default memo(function LatestPropertiesCard({ card, locale, data }: any) {
   // Pages_MyProperties
   const { t } = useTranslation("Pages_LandingPage");
   // const { t } = useTranslation("Pages_LandingPage");
@@ -185,4 +186,4 @@ export default function LatestPropertiesCard({ card, locale, data }: any) {
       </div>
     </div>
   );
-}
+});

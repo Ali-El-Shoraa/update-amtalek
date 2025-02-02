@@ -22,6 +22,13 @@ import LoginPopUp from "@/components/LoginPopUp";
 import LogOutPopUp from "@/components/LogOutPopUp";
 import UserProfileComponent from "@/components/UserProfileComponent";
 import Loading from "./Loading";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  icons: {
+    icon: "/fav-icon.png",
+  },
+};
 
 export default async function RootLayout({
   children,

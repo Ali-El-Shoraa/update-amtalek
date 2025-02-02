@@ -1,8 +1,9 @@
 "use client";
+import { memo } from "react";
 import VideoBtn from "./components/VideoBtn";
 import { useTranslation } from "react-i18next";
 
-export default function VideoSection({ data, locale, countrie }: any) {
+export default memo(function VideoSection({ data, locale, countrie }: any) {
   const { i18n } = useTranslation();
   return (
     <section className="relative flex items-center min-h-[700px] py-28 bg-custome-white">
@@ -33,4 +34,4 @@ export default function VideoSection({ data, locale, countrie }: any) {
       </div>
     </section>
   );
-}
+});

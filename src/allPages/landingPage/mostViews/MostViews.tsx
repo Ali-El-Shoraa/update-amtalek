@@ -3,10 +3,11 @@ import HeaderSection from "@/components/HeaderSection";
 import MostViewCard from "./components/MostViewCard";
 import { useTranslation } from "react-i18next";
 import ButtonSections from "@/components/ButtonSections";
+import { memo } from "react";
 // import Heading from "@/components/Heading";
 // import SubHeading from "@/MainComponents/SubHeading";
 
-export default function MostViews({ data, locale, countrie }: any) {
+export default memo(function MostViews({ data, locale, countrie }: any) {
   const { t } = useTranslation("Pages_LandingPage");
   return (
     <section className="h-auto bg-custome-venice text-secondary ">
@@ -57,4 +58,4 @@ export default function MostViews({ data, locale, countrie }: any) {
       </section>
     </section>
   );
-}
+});

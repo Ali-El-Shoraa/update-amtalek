@@ -7,8 +7,9 @@ import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import FavoriteButton from "@/components/FavoriteButton";
 import ShareOptions from "../../latestProperties/components/ShareOptions";
+import { memo } from "react";
 
-export default function MostViewCard({ card, locale }: any) {
+export default memo(function MostViewCard({ card, locale }: any) {
   // Pages_PropertyDetails
   const { t } = useTranslation("Pages_LandingPage");
   // const { t } = useTranslation("Pages_LandingPage");
@@ -193,4 +194,4 @@ export default function MostViewCard({ card, locale }: any) {
       </div>
     </div>
   );
-}
+});

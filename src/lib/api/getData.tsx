@@ -22,7 +22,7 @@ export default async function getData(
   }
 
   // دالة لجلب البيانات مع إضافة منطق المحاولة
-  const fetchData = async (attempt: number): Promise<any> => {
+  const fetchData = async (attempt: number) => {
     try {
       const res = await fetch(
         `${process.env.NEXT_PUBLIC_BASE_URL_GET_DATA}${point}`,

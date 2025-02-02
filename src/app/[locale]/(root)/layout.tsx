@@ -29,6 +29,8 @@ export default async function layout({
     "Pages_PropertyDetails",
     "Pages_NotFound",
     "Pages_Projects",
+    "Pages_News",
+    "Pages_NewsDetails",
   ];
 
   const { t } = await initTranslations(locale, i18nNamespaces);

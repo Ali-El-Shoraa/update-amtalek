@@ -1,0 +1,26 @@
+/* .swiper-slide {
+  text-align: center !important;
+  font-size: 18px !important;
+  background: #fff !important; */
+
+/* Center slide text vertically */
+/* display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+} */
+
+.swiper-pagination-bullet {
+  width: 20px !important;
+  height: 20px !important;
+  text-align: center !important;
+  line-height: 20px !important;
+  font-size: 12px !important;
+  color: #000 !important;
+  opacity: 1 !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff !important;
+  background: #007aff !important;
+}
