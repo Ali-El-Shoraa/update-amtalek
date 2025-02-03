@@ -23,9 +23,10 @@ export async function getUserDataAction() {
 
 export async function getUserProfileDataAction() {
   const locale = (await cookies()).get("NEXT_LOCALE")?.value || "en";
+  const isAuthenticated = await verifyToken();
   const token = (await cookies()).get("auth_token")?.value;
-  const userData = (await cookies()).get("userDataAction")?.value;
-  if (!userData) return;
+  const userData = (await cookies()).get("userDataAction")?.value || "{}";
+  if (!userData && !token && !isAuthenticated?.isAuthenticated) return;
   const parsedUserData = JSON.parse(userData);
   //   return parsedUserData;
   const response = await getData(
