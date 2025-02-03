@@ -1,3 +1,4 @@
+import { getUserProfileDataAction } from "@/lib/actions/user.data.actions";
 import { TUser } from "@/Types/AppTypes";
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
@@ -10,23 +11,25 @@ export const fetchUserProfile: any = createAsyncThunk<
   "authorized/fetchUserProfile",
   async ({ token, language, userData }: any, { rejectWithValue }) => {
     try {
-      const response = await fetch(
-        `${process.env.NEXT_PUBLIC_BASE_URL_GET_DATA}web/${process.env.NEXT_PUBLIC_USER_PROFILE_DATA}/${userData?.actor_type}/${userData?.id}`,
-        {
-          method: "GET",
-          headers: {
-            Authorization: `Bearer ${token}`,
-            lang: language,
-          },
-        }
-      );
+      // const response = await fetch(
+      //   `${process.env.NEXT_PUBLIC_BASE_URL_GET_DATA}web/${process.env.NEXT_PUBLIC_USER_PROFILE_DATA}/${userData?.actor_type}/${userData?.id}`,
+      //   {
+      //     method: "GET",
+      //     headers: {
+      //       Authorization: `Bearer ${token}`,
+      //       lang: language,
+      //     },
+      //   }
+      // );
 
-      if (!response.ok) {
-        throw new Error(`HTTP Error: ${response.status}`);
-      }
-
-      const dataProfile = await response.json();
-      return dataProfile?.data;
+      // if (!response.ok) {
+      //   throw new Error(`HTTP Error: ${response.status}`);
+      // }
+      const response = await getUserProfileDataAction();
+      // const dataProfile = await response.json();
+      const dataProfile = await response;
+      // return dataProfile?.data;
+      return dataProfile;
     } catch (error: any) {
       console.error("Fetch User Profile Error:", error.message);
       return rejectWithValue(error.message);

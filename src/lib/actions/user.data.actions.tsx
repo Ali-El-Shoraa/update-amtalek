@@ -21,21 +21,21 @@ export async function getUserDataAction() {
   return JSON.parse(userData);
 }
 
-// export async function getUserProfileDataAction() {
-//   const locale = (await cookies()).get("NEXT_LOCALE")?.value || "en";
-//   const isAuthenticated = await verifyToken();
-//   const token = (await cookies()).get("auth_token")?.value;
-//   const userData = (await cookies()).get("userDataAction")?.value || "{}";
-//   if (!userData && !token && !isAuthenticated?.isAuthenticated) return;
-//   const parsedUserData = JSON.parse(userData);
-//   //   return parsedUserData;
-//   const response = await getData(
-//     `web/${process.env.NEXT_PUBLIC_USER_PROFILE_DATA}/${parsedUserData?.data?.actor_type}/${parsedUserData?.data?.id}`,
-//     locale,
-//     token
-//   );
-//   return response?.data;
-// }
+export async function getUserProfileDataAction() {
+  const locale = (await cookies()).get("NEXT_LOCALE")?.value || "en";
+  const isAuthenticated = await verifyToken();
+  const token = (await cookies()).get("auth_token")?.value;
+  const userData = (await cookies()).get("userDataAction")?.value || "{}";
+  if (!userData && !token && !isAuthenticated?.isAuthenticated) return;
+  const parsedUserData = JSON.parse(userData);
+  //   return parsedUserData;
+  const response = await getData(
+    `web/${process.env.NEXT_PUBLIC_USER_PROFILE_DATA}/${parsedUserData?.data?.actor_type}/${parsedUserData?.data?.id}`,
+    locale,
+    token
+  );
+  return response?.data;
+}
 
 export async function verifyToken() {
   const userData = (await cookies()).get("userDataAction")?.value;
