@@ -1,3 +1,5 @@
+"use client";
+// import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { MdAttachMoney } from "react-icons/md";
 import {
@@ -8,22 +10,67 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import ButtonClientSide from "./ButtonClientSide";
-import LanguageChanger from "../../LanguageChanger";
+import { useTranslation } from "react-i18next";
+import { useSelector } from "react-redux";
 import {
-  getUserDataAction,
-  getUserProfileDataAction,
-} from "@/lib/actions/user.data.actions";
-import initTranslations from "@/app/i18n";
+  userData,
+  userProfileDataOut,
+} from "@/Store/Features/AuthenticationSlice";
 import LangLink from "@/components/LangLink";
+import LanguageChanger from "@/components/LanguageChanger";
+// import { changeLanguage } from "i18next";
 
-export default async function HeaderTopMenu({ heroMenu, locale }: any) {
-  const { t, i18n } = await initTranslations(locale, ["LayoutComponents"]);
+export default function HeaderTopMenu({ heroMenu }: any) {
+  // const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation("LayoutComponents");
 
-  const userProfile = (await getUserProfileDataAction()) || null;
+  function changeLanguage(lang: string) {
+    // window.location.replace(window.location.href.replace(lng, lang));
+    i18n.changeLanguage(lang);
+    lang === "ar"
+      ? window.location.replace(window.location.origin)
+      : // : window.location.replace(window.location.href.replace(lng, lang));
+        window.location.replace(window.location.origin + "/en");
+    localStorage.setItem("i18nextLng", lang);
+  }
 
-  const user = (await getUserDataAction()) || null;
+  // حالة لتخزين بيانات المستخدم
+  // const [userData, setUserData] = useState<any>({});
+
+  // // مراقبة الـ cookie وتحديث حالة userData عند تغير الـ cookie
+  // useEffect(() => {
+  //   const cookieData = Cookies.get("userData");
+  //   if (cookieData) {
+  //     try {
+  //       const parsedData = JSON.parse(cookieData);
+  //       setUserData(parsedData);
+  //     } catch (error) {
+  //       console.error("Error parsing user cookie data: ", error);
+  //     }
+
+  //   }
+  // }, []); // يتم استدعاء هذا الـ useEffect مرة واحدة عند تحميل الصفحة
+  // const [userData, setUserData] = useState<any>({});
+
+  const user = useSelector(userData); //localStorage.getItem("userData");
+  // useEffect(() => {
+  //   if (storedData) {
+  //     try {
+  //       const parsedData = JSON.parse(storedData);
+  //       setUserData(parsedData);
+  //     } catch (error) {
+  //       console.error("Error parsing user data from localStorage: ", error);
+  //     }
+  //   }
+  // }, []);
+
+  // const userProfile: any = user?.data;
+  const userProfile = useSelector(userProfileDataOut);
 
   const token: any = user?.token || null;
+
+  // const userProfile: any = userData?.data;
+  // const token: any = userData?.token || null;
 
   return (
     <div
