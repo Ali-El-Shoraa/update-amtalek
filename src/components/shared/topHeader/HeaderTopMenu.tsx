@@ -19,14 +19,10 @@ import LangLink from "@/components/LangLink";
 export default async function HeaderTopMenu({ heroMenu, locale }: any) {
   const { t, i18n } = await initTranslations(locale, ["LayoutComponents"]);
 
-  const userProfile = await getUserProfileDataAction();
-  console.log("====================================");
-  console.log("userProfileuserProfile", userProfile);
-  console.log("====================================");
-  const user = await getUserDataAction();
-  console.log("====================================");
-  console.log("useruser", user);
-  console.log("====================================");
+  const userProfile = (await getUserProfileDataAction()) || null;
+
+  const user = (await getUserDataAction()) || null;
+
   const token: any = user?.token || null;
 
   return (

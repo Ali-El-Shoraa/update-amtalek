@@ -12,7 +12,7 @@ export default async function QuikLinks({ locale }: any) {
   // const userDataValue: any = userDatacookies ? userDatacookies.value : null;
 
   // const user: any = useSelector(userData); //userDataValue ? JSON.parse(userDataValue) : null;
-  const user = await getUserDataAction(); //userDataValue ? JSON.parse(userDataValue) : null;
+  const user = (await getUserDataAction()) || ""; //userDataValue ? JSON.parse(userDataValue) : null;
 
   return (
     // asm:items-center
